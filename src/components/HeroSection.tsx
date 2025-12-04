@@ -15,7 +15,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <div className="max-w-3xl mx-auto animate-fade-in">
+        <div className="max-w-4xl mx-auto animate-fade-in">
           {/* Logo Placeholder */}
           <div className="mb-8">
             <div className="inline-flex items-center justify-center w-32 h-32 rounded-full bg-primary/20 border-2 border-primary-foreground/30 backdrop-blur-sm">
