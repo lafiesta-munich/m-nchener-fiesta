@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Instagram, Facebook, MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const Footer = () => {
@@ -107,8 +108,8 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/50">
             <p>© {new Date().getFullYear()} Cantina München. Alle Rechte vorbehalten.</p>
             <div className="flex gap-6">
-              <a href="#" className="hover:text-primary transition-colors">Impressum</a>
-              <a href="#" className="hover:text-primary transition-colors">Datenschutz</a>
+              <Link to="/impressum" className="hover:text-primary transition-colors">Impressum</Link>
+              <Link to="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</Link>
             </div>
           </div>
         </div>
