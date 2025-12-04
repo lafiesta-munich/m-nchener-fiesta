@@ -30,7 +30,7 @@ const ContactSection = () => {
     <section id="kontakt" className="section-padding">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <p className="text-secondary font-medium tracking-widest uppercase mb-4">
+          <p className="text-secondary font-semibold tracking-widest uppercase mb-4 text-sm">
             Wir freuen uns auf dich
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -44,7 +44,7 @@ const ContactSection = () => {
             <div className="space-y-6 mb-8">
               {contactInfo.map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
                     <Icon className="h-5 w-5 text-primary" />
                   </div>
                   <div>
@@ -56,7 +56,7 @@ const ContactSection = () => {
             </div>
 
             {/* Google Maps Embed */}
-            <div className="rounded-lg overflow-hidden border border-border h-[300px]">
+            <div className="rounded-2xl overflow-hidden border border-border h-[300px]">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.5847682647!2d11.5819!3d48.1391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDA4JzIwLjgiTiAxMcKwMzQnNTQuOCJF!5e0!3m2!1sde!2sde!4v1234567890"
                 width="100%"
@@ -71,7 +71,7 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-card p-8 rounded-lg border border-border">
+          <div className="bg-card p-8 rounded-2xl border border-border">
             <h3 className="font-display text-2xl font-semibold text-foreground mb-6">
               Schreib uns eine Nachricht
             </h3>
@@ -84,6 +84,7 @@ const ContactSection = () => {
                   id="name"
                   type="text"
                   placeholder="Max Mustermann"
+                  className="rounded-xl"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
@@ -98,6 +99,7 @@ const ContactSection = () => {
                     id="email"
                     type="email"
                     placeholder="max@beispiel.de"
+                    className="rounded-xl"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     required
@@ -111,6 +113,7 @@ const ContactSection = () => {
                     id="phone"
                     type="tel"
                     placeholder="+49 123 456 789"
+                    className="rounded-xl"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   />
@@ -124,12 +127,13 @@ const ContactSection = () => {
                   id="message"
                   placeholder="Wie können wir dir helfen?"
                   rows={5}
+                  className="rounded-xl"
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   required
                 />
               </div>
-              <Button type="submit" size="lg" className="w-full">
+              <Button type="submit" size="lg" className="w-full rounded-full">
                 Nachricht senden
               </Button>
             </form>

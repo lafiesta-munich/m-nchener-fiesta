@@ -19,13 +19,13 @@ const PrivateEventsSection = () => {
             <img
               src={privateEventsImg}
               alt="Private Events"
-              className="rounded-lg shadow-2xl w-full object-cover aspect-[4/3]"
+              className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/3]"
             />
           </div>
 
           {/* Content */}
           <div>
-            <p className="text-secondary font-medium tracking-widest uppercase mb-4">
+            <p className="text-secondary font-semibold tracking-widest uppercase mb-4 text-sm">
               Dein besonderer Anlass
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -42,7 +42,7 @@ const PrivateEventsSection = () => {
               {eventTypes.map(({ icon: Icon, label }) => (
                 <div
                   key={label}
-                  className="flex items-center gap-3 p-4 bg-background rounded-lg border border-border"
+                  className="flex items-center gap-3 p-4 bg-background rounded-xl border border-border"
                 >
                   <Icon className="h-5 w-5 text-primary" />
                   <span className="font-medium text-foreground">{label}</span>
@@ -50,8 +50,8 @@ const PrivateEventsSection = () => {
               ))}
             </div>
 
-            <div className="bg-muted/50 p-6 rounded-lg mb-8">
-              <p className="text-foreground font-medium mb-2">Was wir bieten:</p>
+            <div className="bg-muted/50 p-6 rounded-xl mb-8">
+              <p className="text-foreground font-semibold mb-3">Was wir bieten:</p>
               <ul className="text-muted-foreground space-y-2">
                 <li>• Separater Bereich für bis zu 40 Personen</li>
                 <li>• Individuelle Menü-Zusammenstellung</li>
@@ -60,7 +60,7 @@ const PrivateEventsSection = () => {
               </ul>
             </div>
 
-            <Button size="lg">Anfrage senden</Button>
+            <Button size="lg" className="rounded-full">Anfrage senden</Button>
           </div>
         </div>
       </div>

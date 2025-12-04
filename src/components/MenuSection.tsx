@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import foodImg from "@/assets/food.jpg";
+import menuCardImg from "@/assets/menu-card.jpg";
 
 const MenuSection = () => {
   const highlights = [
@@ -16,7 +16,7 @@ const MenuSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="order-2 lg:order-1">
-            <p className="text-secondary font-medium tracking-widest uppercase mb-4">
+            <p className="text-secondary font-semibold tracking-widest uppercase mb-4 text-sm">
               Authentisch & Frisch
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -33,7 +33,7 @@ const MenuSection = () => {
               {highlights.map((item) => (
                 <div
                   key={item}
-                  className="flex items-center gap-3 p-3 bg-card rounded-lg border border-border"
+                  className="flex items-center gap-3 p-4 bg-card rounded-xl border border-border"
                 >
                   <div className="w-2 h-2 bg-primary rounded-full" />
                   <span className="font-medium text-foreground">{item}</span>
@@ -41,7 +41,7 @@ const MenuSection = () => {
               ))}
             </div>
 
-            <Button size="lg" className="group">
+            <Button size="lg" className="group rounded-full">
               Zur Speisekarte
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
@@ -50,11 +50,11 @@ const MenuSection = () => {
           {/* Image */}
           <div className="order-1 lg:order-2 relative">
             <img
-              src={foodImg}
-              alt="Mexikanische Speisen"
-              className="rounded-lg shadow-2xl w-full object-cover aspect-[4/3]"
+              src={menuCardImg}
+              alt="Mexikanische Speisekarte"
+              className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/3]"
             />
-            <div className="absolute inset-0 rounded-lg ring-1 ring-inset ring-foreground/10" />
+            <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-foreground/10" />
           </div>
         </div>
       </div>
