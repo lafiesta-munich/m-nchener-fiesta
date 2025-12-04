@@ -5,16 +5,16 @@ const ReservationCTA = () => {
   return (
     <section className="py-20 bg-foreground">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
+        <h2 className="font-display text-3xl md:text-4xl font-bold text-background mb-4">
           Tisch reservieren
         </h2>
-        <p className="text-primary-foreground/70 text-lg mb-8 max-w-xl mx-auto">
+        <p className="text-background/70 text-lg mb-8 max-w-xl mx-auto">
           Sichere dir deinen Platz für ein unvergessliches mexikanisches Erlebnis.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             size="lg"
-            className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90"
+            className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg"
             asChild
           >
             <a href="https://reservierung.cantina-muenchen.de" target="_blank" rel="noopener noreferrer">
@@ -24,7 +24,7 @@ const ReservationCTA = () => {
           </Button>
           <Button
             size="lg"
-            className="rounded-full bg-[#25D366] text-white hover:bg-[#25D366]/90"
+            className="rounded-full bg-[#25D366] text-white hover:bg-[#22c55e] shadow-lg"
             asChild
           >
             <a href="https://wa.me/498912345678" target="_blank" rel="noopener noreferrer">
