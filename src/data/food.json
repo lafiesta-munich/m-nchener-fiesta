@@ -1,0 +1,111 @@
+[
+  {
+    "image": "food.jpg",
+    "id": 1,
+    "slug": "tacos",
+    "title": "Tacos",
+    "sections": [
+      {
+        "title": "Klassische Tacos",
+        "products": [
+          {
+            "name": "Taco al Pastor",
+            "description": "Mariniertes Schweinefleisch, Ananas, Koriander, Zwiebeln",
+            "price": "3 Stück 12,90€"
+          },
+          {
+            "name": "Taco de Carnitas",
+            "description": "Geschmortes Schweinefleisch, Salsa Verde, Zwiebeln",
+            "price": "3 Stück 12,90€"
+          },
+          {
+            "name": "Taco de Pollo",
+            "description": "Gegrilltes Hähnchen, Guacamole, Pico de Gallo",
+            "price": "3 Stück 11,90€"
+          }
+        ]
+      },
+      {
+        "title": "Premium Tacos",
+        "products": [
+          {
+            "name": "Taco de Carne Asada",
+            "description": "Gegrilltes Rindfleisch, Chimichurri, Zwiebeln",
+            "price": "3 Stück 14,90€"
+          },
+          {
+            "name": "Taco de Camarones",
+            "description": "Gebratene Garnelen, Chipotle-Mayo, Krautsalat",
+            "price": "3 Stück 15,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "food.jpg",
+    "id": 2,
+    "slug": "burritos",
+    "title": "Burritos",
+    "sections": [
+      {
+        "title": "Klassische Burritos",
+        "products": [
+          {
+            "name": "Burrito Grande",
+            "description": "Wahl aus Fleisch, Reis, Bohnen, Käse, Pico de Gallo, Sauerrahm",
+            "price": "14,90€"
+          },
+          {
+            "name": "Burrito Bowl",
+            "description": "Ohne Tortilla, extra Toppings",
+            "price": "13,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "food.jpg",
+    "id": 3,
+    "slug": "antojitos",
+    "title": "Antojitos & Vorspeisen",
+    "sections": [
+      {
+        "title": "Zum Teilen",
+        "products": [
+          {
+            "name": "Nachos Supreme",
+            "description": "Tortilla-Chips, Käse, Jalapeños, Guacamole, Sauerrahm, Salsa",
+            "price": "12,90€"
+          },
+          {
+            "name": "Quesadilla",
+            "description": "Käse-gefüllte Tortilla mit Fleisch nach Wahl",
+            "price": "10,90€"
+          },
+          {
+            "name": "Guacamole Fresco",
+            "description": "Frisch zubereitete Guacamole mit Tortilla-Chips",
+            "price": "8,90€"
+          }
+        ]
+      },
+      {
+        "title": "Suppen & Salate",
+        "products": [
+          {
+            "name": "Tortilla Suppe",
+            "description": "Traditionelle mexikanische Suppe mit Hühnchen",
+            "price": "7,90€"
+          },
+          {
+            "name": "Ensalada Mexicana",
+            "description": "Gemischter Salat mit Bohnen, Mais, Avocado",
+            "price": "9,90€"
+          }
+        ]
+      }
+    ]
+  }
+]

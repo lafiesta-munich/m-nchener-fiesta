@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -16,7 +17,7 @@ const Navbar = () => {
 
   const navLinks = [
     { href: "#happy-hour", label: "Happy Hour" },
-    { href: "#speisekarte", label: "Speisekarte" },
+    { href: "/speisekarte", label: "Speisekarte", isRoute: true },
     { href: "#private-events", label: "Private Feiern" },
     { href: "#events", label: "Events" },
     { href: "#galerie", label: "Galerie" },
@@ -44,19 +45,33 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
-                  isScrolled
-                    ? "text-foreground/80 hover:text-primary hover:bg-primary/10"
-                    : "text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10"
-                }`}
-              >
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) =>
+              link.isRoute ? (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
+                    isScrolled
+                      ? "text-foreground/80 hover:text-primary hover:bg-primary/10"
+                      : "text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
+                    isScrolled
+                      ? "text-foreground/80 hover:text-primary hover:bg-primary/10"
+                      : "text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10"
+                  }`}
+                >
+                  {link.label}
+                </a>
+              )
+            )}
             <Button
               size="sm"
               className={`ml-4 rounded-full ${
@@ -85,16 +100,27 @@ const Navbar = () => {
         {isOpen && (
           <div className="lg:hidden py-6 mt-4 bg-background rounded-2xl shadow-xl border border-border">
             <div className="flex flex-col gap-2 px-4">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {link.label}
-                </a>
-              ))}
+              {navLinks.map((link) =>
+                link.isRoute ? (
+                  <Link
+                    key={link.href}
+                    to={link.href}
+                    className="px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-colors"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className="px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-colors"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.label}
+                  </a>
+                )
+              )}
               <Button size="sm" className="mt-4 rounded-full">
                 Reservieren
               </Button>

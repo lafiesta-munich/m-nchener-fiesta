@@ -1,0 +1,136 @@
+[
+  {
+    "image": "cocktails.jpg",
+    "id": 1,
+    "slug": "alkoholische-getraenke",
+    "title": "Alkoholische Getränke",
+    "sections": [
+      {
+        "title": "Bier",
+        "products": [
+          {
+            "name": "Augustiner Hell",
+            "description": "Augustiner Bier aus Bayern",
+            "price": "0,5L 5,90€"
+          },
+          {
+            "name": "Corona Extra",
+            "description": "Mexikanisches Lagerbier mit Limette",
+            "price": "0,33L 4,90€"
+          },
+          {
+            "name": "Modelo Especial",
+            "description": "Premium mexikanisches Pilsner",
+            "price": "0,33L 4,90€"
+          }
+        ]
+      },
+      {
+        "title": "Tequila & Mezcal",
+        "products": [
+          {
+            "name": "José Cuervo Silver",
+            "description": "Klassischer Blanco Tequila",
+            "price": "4cl 6,90€"
+          },
+          {
+            "name": "Patrón Reposado",
+            "description": "Premium gereifter Tequila",
+            "price": "4cl 9,90€"
+          },
+          {
+            "name": "Del Maguey Vida",
+            "description": "Handgefertigter Mezcal aus Oaxaca",
+            "price": "4cl 8,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "cocktails.jpg",
+    "id": 2,
+    "slug": "cocktails",
+    "title": "Cocktails",
+    "sections": [
+      {
+        "title": "Signature Cocktails",
+        "products": [
+          {
+            "name": "Margarita Clásica",
+            "description": "Tequila, Triple Sec, frischer Limettensaft, Salzrand",
+            "price": "12,90€"
+          },
+          {
+            "name": "Paloma",
+            "description": "Tequila, Grapefruitsoda, Limette, Salz",
+            "price": "11,90€"
+          },
+          {
+            "name": "Cantina Sunrise",
+            "description": "Tequila, Orangensaft, Grenadine, Limette",
+            "price": "11,90€"
+          }
+        ]
+      },
+      {
+        "title": "Klassiker",
+        "products": [
+          {
+            "name": "Mojito",
+            "description": "Rum, Minze, Limette, Rohrzucker, Soda",
+            "price": "11,90€"
+          },
+          {
+            "name": "Caipirinha",
+            "description": "Cachaça, Limette, Rohrzucker",
+            "price": "10,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "cocktails.jpg",
+    "id": 3,
+    "slug": "alkoholfreie-getraenke",
+    "title": "Alkoholfreie Getränke",
+    "sections": [
+      {
+        "title": "Softdrinks",
+        "products": [
+          {
+            "name": "Coca Cola",
+            "description": "Classic, Zero oder Light",
+            "price": "0,3L 3,90€"
+          },
+          {
+            "name": "Sprite",
+            "description": "Erfrischend zitronig",
+            "price": "0,3L 3,90€"
+          },
+          {
+            "name": "Jarritos",
+            "description": "Mexikanische Limonade, verschiedene Sorten",
+            "price": "0,37L 4,50€"
+          }
+        ]
+      },
+      {
+        "title": "Aguas Frescas",
+        "products": [
+          {
+            "name": "Horchata",
+            "description": "Traditionelles Reisgetränk mit Zimt",
+            "price": "0,4L 5,90€"
+          },
+          {
+            "name": "Jamaica",
+            "description": "Hibiskusblütentee, erfrischend süß-säuerlich",
+            "price": "0,4L 5,90€"
+          }
+        ]
+      }
+    ]
+  }
+]
