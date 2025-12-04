@@ -8,13 +8,13 @@ const SocialCTA = () => {
   ];
 
   return (
-    <section className="py-12 bg-muted/30">
+    <section className="py-16 bg-secondary">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
-          <p className="text-muted-foreground font-medium">
+        <div className="flex flex-col items-center justify-center gap-6">
+          <h3 className="font-display text-2xl font-bold text-foreground">
             Folge uns auf Social Media
-          </p>
-          <div className="flex gap-3">
+          </h3>
+          <div className="flex gap-4">
             {socials.map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
@@ -22,9 +22,9 @@ const SocialCTA = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={label}
-                className="w-11 h-11 bg-foreground/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
+                className="w-14 h-14 bg-primary text-primary-foreground rounded-full flex items-center justify-center hover:bg-primary/80 transition-all duration-300 hover:scale-110 shadow-lg"
               >
-                <Icon className="h-5 w-5" />
+                <Icon className="h-6 w-6" />
               </a>
             ))}
           </div>
