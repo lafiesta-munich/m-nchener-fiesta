@@ -23,273 +23,374 @@ const Datenschutz = () => {
           </h1>
           
           <div className="max-w-3xl prose prose-lg">
+            <p className="text-muted-foreground mb-6">
+              Personenbezogene Daten (nachfolgend zumeist nur „Daten" genannt) werden von uns nur im 
+              Rahmen der Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen 
+              und nutzerfreundlichen Internetauftritts, inklusive seiner Inhalte und der dort 
+              angebotenen Leistungen, verarbeitet.
+            </p>
+            <p className="text-muted-foreground mb-6">
+              Gemäß Art. 4 Ziffer 1. der Verordnung (EU) 2016/679, also der Datenschutz-Grundverordnung 
+              (nachfolgend nur „DSGVO" genannt), gilt als „Verarbeitung" jeder mit oder ohne Hilfe 
+              automatisierter Verfahren ausgeführter Vorgang oder jede solche Vorgangsreihe im 
+              Zusammenhang mit personenbezogenen Daten, wie das Erheben, das Erfassen, die Organisation, 
+              das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, 
+              die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der 
+              Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder 
+              die Vernichtung.
+            </p>
+            <p className="text-muted-foreground mb-8">
+              Mit der nachfolgenden Datenschutzerklärung informieren wir Sie insbesondere über Art, 
+              Umfang, Zweck, Dauer und Rechtsgrundlage der Verarbeitung personenbezogener Daten, soweit 
+              wir entweder allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung 
+              entscheiden.
+            </p>
+
+            <p className="text-foreground font-semibold mb-4">
+              Unsere Datenschutzerklärung ist wie folgt gegliedert:
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground mb-8 space-y-1">
+              <li>I. Informationen über uns als Verantwortliche</li>
+              <li>II. Rechte der Nutzer und Betroffenen</li>
+              <li>III. Informationen zur Datenverarbeitung</li>
+            </ul>
+
+            {/* I. Verantwortliche */}
             <section className="mb-10">
               <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                1. Datenschutz auf einen Blick
+                I. Informationen über uns als Verantwortliche
               </h2>
-              
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Allgemeine Hinweise
-              </h3>
               <p className="text-muted-foreground mb-4">
-                Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren 
-                personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene 
-                Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Datenerfassung auf dieser Website
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                <strong className="text-foreground">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</strong><br />
-                Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen 
-                Kontaktdaten können Sie dem Impressum dieser Website entnehmen.
-              </p>
-              <p className="text-muted-foreground mb-4">
-                <strong className="text-foreground">Wie erfassen wir Ihre Daten?</strong><br />
-                Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann 
-                es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben oder bei einer 
-                Reservierung angeben. Andere Daten werden automatisch oder nach Ihrer Einwilligung beim 
-                Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten 
-                (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs).
-              </p>
-              <p className="text-muted-foreground mb-4">
-                <strong className="text-foreground">Wofür nutzen wir Ihre Daten?</strong><br />
-                Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu 
-                gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
+                Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:
               </p>
               <p className="text-muted-foreground">
-                <strong className="text-foreground">Welche Rechte haben Sie bezüglich Ihrer Daten?</strong><br />
-                Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und 
-                Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein 
-                Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine 
-                Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung 
-                jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten 
-                Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+                Amin Jafari<br />
+                La Fiesta UG<br />
+                Schwanthaler Straße 3<br />
+                80336 München<br />
+                Deutschland<br /><br />
+                Telefon: +49 (0) 89 726 090 32<br />
+                E-Mail:{" "}
+                <a href="mailto:info@lafiesta-bar.de" className="text-primary hover:underline">
+                  info@lafiesta-bar.de
+                </a>
               </p>
             </section>
 
+            {/* II. Rechte der Nutzer */}
             <section className="mb-10">
               <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                2. Verantwortliche Stelle
+                II. Rechte der Nutzer und Betroffenen
               </h2>
               <p className="text-muted-foreground mb-4">
-                Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
+                Mit Blick auf die nachfolgend noch näher beschriebene Datenverarbeitung haben die 
+                Nutzer und Betroffenen das Recht
               </p>
-              <p className="text-muted-foreground mb-4">
-                Cantina München UG (haftungsbeschränkt)<br />
-                Maximilianstraße 42<br />
-                80538 München<br />
-                <br />
-                Telefon: +49 89 123 456 78<br />
-                E-Mail: hola@cantina-muenchen.de
-              </p>
-              <p className="text-muted-foreground">
-                Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder 
-                gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen 
-                Daten entscheidet.
-              </p>
-            </section>
-
-            <section className="mb-10">
-              <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                3. Hosting
-              </h2>
-              <p className="text-muted-foreground mb-4">
-                Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
-              </p>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Externes Hosting
-              </h3>
-              <p className="text-muted-foreground">
-                Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website 
-                erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich 
-                v.a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, 
-                Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert 
-                werden, handeln. Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber 
-                unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse 
-                einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch 
-                einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).
-              </p>
-            </section>
-
-            <section className="mb-10">
-              <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                4. Allgemeine Hinweise und Pflichtinformationen
-              </h2>
-              
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Datenschutz
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir 
-                behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen 
-                Datenschutzvorschriften sowie dieser Datenschutzerklärung.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Hinweis zur verantwortlichen Stelle
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist im 
-                Abschnitt "Verantwortliche Stelle" genannt.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Speicherdauer
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt 
-                wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die 
-                Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen 
-                oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, 
-                sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer 
-                personenbezogenen Daten haben.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Widerruf Ihrer Einwilligung zur Datenverarbeitung
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung 
-                möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die 
-                Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf 
-                unberührt.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Recht auf Datenübertragbarkeit
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung 
-                eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem 
-                gängigen, maschinenlesbaren Format aushändigen zu lassen.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Auskunft, Löschung und Berichtigung
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf 
-                unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft 
-                und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung 
-                oder Löschung dieser Daten.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Recht auf Einschränkung der Verarbeitung
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten 
-                zu verlangen. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen: 
-                Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, 
-                wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah, wenn wir Ihre 
-                personenbezogenen Daten nicht mehr benötigen, oder wenn Sie Widerspruch gegen die 
-                Verarbeitung eingelegt haben.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Widerspruch gegen Werbe-E-Mails
-              </h3>
-              <p className="text-muted-foreground">
-                Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur 
-                Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien 
-                wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich 
-                rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen vor.
-              </p>
-            </section>
-
-            <section className="mb-10">
-              <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                5. Datenerfassung auf dieser Website
-              </h2>
-              
-              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Server-Log-Dateien
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten 
-                Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
-              </p>
-              <ul className="list-disc pl-6 text-muted-foreground mb-4 space-y-1">
-                <li>Browsertyp und Browserversion</li>
-                <li>verwendetes Betriebssystem</li>
-                <li>Referrer URL</li>
-                <li>Hostname des zugreifenden Rechners</li>
-                <li>Uhrzeit der Serveranfrage</li>
-                <li>IP-Adresse</li>
+              <ul className="list-disc pl-6 text-muted-foreground mb-4 space-y-2">
+                <li>
+                  auf Bestätigung, ob sie betreffende Daten verarbeitet werden, auf Auskunft über 
+                  die verarbeiteten Daten, auf weitere Informationen über die Datenverarbeitung 
+                  sowie auf Kopien der Daten (vgl. auch Art. 15 DSGVO);
+                </li>
+                <li>
+                  auf Berichtigung oder Vervollständigung unrichtiger bzw. unvollständiger Daten 
+                  (vgl. auch Art. 16 DSGVO);
+                </li>
+                <li>
+                  auf unverzügliche Löschung der sie betreffenden Daten (vgl. auch Art. 17 DSGVO), 
+                  oder, alternativ, soweit eine weitere Verarbeitung gemäß Art. 17 Abs. 3 DSGVO 
+                  erforderlich ist, auf Einschränkung der Verarbeitung nach Maßgabe von Art. 18 DSGVO;
+                </li>
+                <li>
+                  auf Erhalt der sie betreffenden und von ihnen bereitgestellten Daten und auf 
+                  Übermittlung dieser Daten an andere Anbieter/Verantwortliche (vgl. auch Art. 20 DSGVO);
+                </li>
+                <li>
+                  auf Beschwerde gegenüber der Aufsichtsbehörde, sofern sie der Ansicht sind, dass 
+                  die sie betreffenden Daten durch den Anbieter unter Verstoß gegen datenschutzrechtliche 
+                  Bestimmungen verarbeitet werden (vgl. auch Art. 77 DSGVO).
+                </li>
               </ul>
               <p className="text-muted-foreground mb-4">
-                Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. 
-                Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
+                Darüber hinaus ist der Anbieter dazu verpflichtet, alle Empfänger, denen gegenüber 
+                Daten durch den Anbieter offengelegt worden sind, über jedwede Berichtigung oder 
+                Löschung von Daten oder die Einschränkung der Verarbeitung, die aufgrund der Artikel 
+                16, 17 Abs. 1, 18 DSGVO erfolgt, zu unterrichten. Diese Verpflichtung besteht jedoch 
+                nicht, soweit diese Mitteilung unmöglich oder mit einem unverhältnismäßigen Aufwand 
+                verbunden ist. Unbeschadet dessen hat der Nutzer ein Recht auf Auskunft über diese 
+                Empfänger.
+              </p>
+              <p className="text-muted-foreground font-semibold">
+                Ebenfalls haben die Nutzer und Betroffenen nach Art. 21 DSGVO das Recht auf Widerspruch 
+                gegen die künftige Verarbeitung der sie betreffenden Daten, sofern die Daten durch den 
+                Anbieter nach Maßgabe von Art. 6 Abs. 1 lit. f) DSGVO verarbeitet werden. Insbesondere 
+                ist ein Widerspruch gegen die Datenverarbeitung zum Zwecke der Direktwerbung statthaft.
+              </p>
+            </section>
+
+            {/* III. Datenverarbeitung */}
+            <section className="mb-10">
+              <h2 className="font-display text-2xl font-bold text-foreground mb-4">
+                III. Informationen zur Datenverarbeitung
+              </h2>
+              <p className="text-muted-foreground mb-6">
+                Ihre bei Nutzung unseres Internetauftritts verarbeiteten Daten werden gelöscht oder 
+                gesperrt, sobald der Zweck der Speicherung entfällt, der Löschung der Daten keine 
+                gesetzlichen Aufbewahrungspflichten entgegenstehen und nachfolgend keine anderslautenden 
+                Angaben zu einzelnen Verarbeitungsverfahren gemacht werden.
               </p>
 
               <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
-                Kontaktformular und Reservierungen
+                Serverdaten
               </h3>
               <p className="text-muted-foreground mb-4">
-                Wenn Sie uns per Kontaktformular oder über eine Reservierungsanfrage kontaktieren, 
-                wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, 
-                E-Mail, Telefonnummer, Datum, Personenanzahl) zum Zwecke der Bearbeitung Ihres Anliegens 
-                bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung 
-                weiter. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b 
-                DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur 
-                Durchführung vorvertraglicher Maßnahmen erforderlich ist.
+                Aus technischen Gründen, insbesondere zur Gewährleistung eines sicheren und stabilen 
+                Internetauftritts, werden Daten durch Ihren Internet-Browser an uns bzw. an unseren 
+                Webspace-Provider übermittelt. Mit diesen sog. Server-Logfiles werden u.a. Typ und 
+                Version Ihres Internetbrowsers, das Betriebssystem, die Website, von der aus Sie auf 
+                unseren Internetauftritt gewechselt haben (Referrer URL), die Website(s) unseres 
+                Internetauftritts, die Sie besuchen, Datum und Uhrzeit des jeweiligen Zugriffs sowie 
+                die IP-Adresse des Internetanschlusses, von dem aus die Nutzung unseres Internetauftritts 
+                erfolgt, erhoben.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Diese so erhobenen Daten werden vorrübergehend gespeichert, dies jedoch nicht gemeinsam 
+                mit anderen Daten von Ihnen.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Diese Speicherung erfolgt auf der Rechtsgrundlage von Art. 6 Abs. 1 lit. f) DSGVO. 
+                Unser berechtigtes Interesse liegt in der Verbesserung, Stabilität, Funktionalität 
+                und Sicherheit unseres Internetauftritts.
+              </p>
+              <p className="text-muted-foreground mb-6">
+                Die Daten werden spätestens nach sieben Tage wieder gelöscht, soweit keine weitere 
+                Aufbewahrung zu Beweiszwecken erforderlich ist.
+              </p>
+
+              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
+                Cookies
+              </h3>
+              <h4 className="font-display text-lg font-medium text-foreground mb-2 mt-4">
+                a) Sitzungs-Cookies/Session-Cookies
+              </h4>
+              <p className="text-muted-foreground mb-4">
+                Wir verwenden mit unserem Internetauftritt sog. Cookies. Cookies sind kleine Textdateien 
+                oder andere Speichertechnologien, die durch den von Ihnen eingesetzten Internet-Browser 
+                auf Ihrem Endgerät ablegt und gespeichert werden. Durch diese Cookies werden im 
+                individuellen Umfang bestimmte Informationen von Ihnen, wie beispielsweise Ihre Browser- 
+                oder Standortdaten oder Ihre IP-Adresse, verarbeitet.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Durch diese Verarbeitung wird unser Internetauftritt benutzerfreundlicher, effektiver 
+                und sicherer, da die Verarbeitung bspw. die Wiedergabe unseres Internetauftritts in 
+                unterschiedlichen Sprachen oder das Angebot einer Warenkorbfunktion ermöglicht.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Rechtsgrundlage dieser Verarbeitung ist Art. 6 Abs. 1 lit b.) DSGVO, sofern diese 
+                Cookies Daten zur Vertragsanbahnung oder Vertragsabwicklung verarbeitet werden.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Falls die Verarbeitung nicht der Vertragsanbahnung oder Vertragsabwicklung dient, 
+                liegt unser berechtigtes Interesse in der Verbesserung der Funktionalität unseres 
+                Internetauftritts. Rechtsgrundlage ist in dann Art. 6 Abs. 1 lit. f) DSGVO.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Mit Schließen Ihres Internet-Browsers werden diese Session-Cookies gelöscht.
+              </p>
+
+              <h4 className="font-display text-lg font-medium text-foreground mb-2 mt-4">
+                b) Drittanbieter-Cookies
+              </h4>
+              <p className="text-muted-foreground mb-4">
+                Gegebenenfalls werden mit unserem Internetauftritt auch Cookies von Partnerunternehmen, 
+                mit denen wir zum Zwecke der Werbung, der Analyse oder der Funktionalitäten unseres 
+                Internetauftritts zusammenarbeiten, verwendet.
+              </p>
+
+              <h4 className="font-display text-lg font-medium text-foreground mb-2 mt-4">
+                c) Beseitigungsmöglichkeit
+              </h4>
+              <p className="text-muted-foreground mb-6">
+                Sie können die Installation der Cookies durch eine Einstellung Ihres Internet-Browsers 
+                verhindern oder einschränken. Ebenfalls können Sie bereits gespeicherte Cookies jederzeit 
+                löschen. Die hierfür erforderlichen Schritte und Maßnahmen hängen jedoch von Ihrem konkret 
+                genutzten Internet-Browser ab.
+              </p>
+
+              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
+                Kontaktanfragen / Kontaktmöglichkeit
+              </h3>
+              <p className="text-muted-foreground mb-4">
+                Sofern Sie per Kontaktformular oder E-Mail mit uns in Kontakt treten, werden die dabei 
+                von Ihnen angegebenen Daten zur Bearbeitung Ihrer Anfrage genutzt. Die Angabe der Daten 
+                ist zur Bearbeitung und Beantwortung Ihre Anfrage erforderlich – ohne deren Bereitstellung 
+                können wir Ihre Anfrage nicht oder allenfalls eingeschränkt beantworten. Rechtsgrundlage 
+                für diese Verarbeitung ist Art. 6 Abs. 1 lit. b) DSGVO.
+              </p>
+              <p className="text-muted-foreground mb-6">
+                Ihre Daten werden gelöscht, sofern Ihre Anfrage abschließend beantwortet worden ist und 
+                der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen, wie bspw. bei 
+                einer sich etwaig anschließenden Vertragsabwicklung.
               </p>
             </section>
 
+            {/* Google Services */}
             <section className="mb-10">
               <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                6. Soziale Medien
+                Google Services
               </h2>
+
+              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
+                Google Analytics
+              </h3>
               <p className="text-muted-foreground mb-4">
-                Auf unserer Website sind Links zu unseren Social-Media-Profilen (Instagram, Facebook) 
-                eingebunden. Diese Links führen zu externen Websites, die von den jeweiligen 
-                Plattformbetreibern bereitgestellt werden. Beim Klicken auf diese Links verlassen Sie 
-                unsere Website. Die Datenverarbeitung auf diesen Plattformen unterliegt den 
-                Datenschutzbestimmungen der jeweiligen Anbieter.
+                In unserem Internetauftritt setzen wir Google Analytics ein. Hierbei handelt es sich 
+                um einen Webanalysedienst der Google LLC, 1600 Amphitheatre Parkway, Mountain View, 
+                CA 94043 USA, nachfolgend nur „Google" genannt.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Der Dienst Google Analytics dient zur Analyse des Nutzungsverhaltens unseres 
+                Internetauftritts. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f) DSGVO. Unser berechtigtes 
+                Interesse liegt in der Analyse, Optimierung und dem wirtschaftlichen Betrieb unseres 
+                Internetauftritts.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Allerdings nutzen wir Google Analytics mit der sog. Anonymisierungsfunktion. Durch 
+                diese Funktion kürzt Google die IP-Adresse schon innerhalb der EU bzw. des EWR.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Zudem bietet Google unter{" "}
+                <a 
+                  href="https://tools.google.com/dlpage/gaoptout?hl=de" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  https://tools.google.com/dlpage/gaoptout?hl=de
+                </a>{" "}
+                ein sog. Deaktivierungs-Add-on nebst weiteren Informationen hierzu an.
+              </p>
+
+              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
+                Google Fonts
+              </h3>
+              <p className="text-muted-foreground mb-4">
+                In unserem Internetauftritt setzen wir Google Fonts zur Darstellung externer 
+                Schriftarten ein. Es handelt sich hierbei um einen Dienst der Google LLC.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Um die Darstellung bestimmter Schriften in unserem Internetauftritt zu ermöglichen, 
+                wird bei Aufruf unseres Internetauftritts eine Verbindung zu dem Google-Server in 
+                den USA aufgebaut. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f) DSGVO. Unser berechtigtes 
+                Interesse liegt in der Optimierung und dem wirtschaftlichen Betrieb unseres 
+                Internetauftritts.
+              </p>
+
+              <h3 className="font-display text-xl font-semibold text-foreground mb-3 mt-6">
+                Google Maps
+              </h3>
+              <p className="text-muted-foreground mb-4">
+                In unserem Internetauftritt setzen wir Google Maps zur Darstellung unseres Standorts 
+                sowie zur Erstellung einer Anfahrtsbeschreibung ein. Es handelt sich hierbei um einen 
+                Dienst der Google LLC.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Bei Aufruf unseres Internetauftritts wird eine Verbindung zu dem Google-Server in den 
+                USA aufgebaut. Sofern Sie die in unseren Internetauftritt eingebundene Komponente 
+                Google Maps aufrufen, speichert Google über Ihren Internet-Browser ein Cookie auf 
+                Ihrem Endgerät. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f) DSGVO.
               </p>
             </section>
 
+            {/* SSL-Verschlüsselung */}
             <section className="mb-10">
               <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                7. Cookies
+                SSL- bzw. TLS-Verschlüsselung
+              </h2>
+              <p className="text-muted-foreground">
+                Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die Sie 
+                an uns als Seitenbetreiber senden, nutzt unsere Website eine SSL-bzw. TLS-Verschlüsselung. 
+                Damit sind Daten, die Sie über diese Website übermitteln, für Dritte nicht mitlesbar. 
+                Sie erkennen eine verschlüsselte Verbindung an der „https://" Adresszeile Ihres Browsers 
+                und am Schloss-Symbol in der Browserzeile.
+              </p>
+            </section>
+
+            {/* Onlinepräsenzen */}
+            <section className="mb-10">
+              <h2 className="font-display text-2xl font-bold text-foreground mb-4">
+                Onlinepräsenzen in sozialen Medien
               </h2>
               <p className="text-muted-foreground mb-4">
-                Unsere Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf 
-                Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser 
-                Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine 
-                Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.
+                Innerhalb sozialer Netzwerke und Plattformen unterhalten wir Onlinepräsenzen, sodass 
+                wir mit aktiven Kunden, Interessenten und anderen Nutzern kommunizieren und diese 
+                innerhalb dieser sozialen Netzwerke und Plattformen über unsere Leistungen informieren 
+                können.
               </p>
               <p className="text-muted-foreground mb-4">
-                Die meisten der von uns verwendeten Cookies sind so genannte "Session-Cookies". Sie 
-                werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem 
-                Endgerät gespeichert bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren 
-                Browser beim nächsten Besuch wiederzuerkennen.
+                Die Verarbeitung der personenbezogenen Daten der Nutzer erfolgt auf Grundlage unserer 
+                berechtigten Interessen an einer effektiven Information der Nutzer und Kommunikation 
+                mit den Nutzern gem. Art. 6 Abs. 1 lit. f. DSGVO.
+              </p>
+              
+              <h3 className="font-display text-lg font-semibold text-foreground mb-3 mt-4">
+                Facebook
+              </h3>
+              <p className="text-muted-foreground mb-2">
+                Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Datenschutzerklärung:{" "}
+                <a 
+                  href="https://www.facebook.com/about/privacy/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  https://www.facebook.com/about/privacy/
+                </a>
+              </p>
+
+              <h3 className="font-display text-lg font-semibold text-foreground mb-3 mt-4">
+                Instagram
+              </h3>
+              <p className="text-muted-foreground mb-2">
+                Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA
               </p>
               <p className="text-muted-foreground">
-                Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert 
-                werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte 
-                Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim 
-                Schließen des Browsers aktivieren.
+                Datenschutzerklärung:{" "}
+                <a 
+                  href="https://instagram.com/about/legal/privacy/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  https://instagram.com/about/legal/privacy/
+                </a>
               </p>
             </section>
 
-            <section className="mb-10">
-              <h2 className="font-display text-2xl font-bold text-foreground mb-4">
-                8. Änderung dieser Datenschutzerklärung
-              </h2>
-              <p className="text-muted-foreground">
-                Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den 
-                aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen 
-                in der Datenschutzerklärung umzusetzen. Für Ihren erneuten Besuch gilt dann die neue 
-                Datenschutzerklärung.
-              </p>
-            </section>
-
+            {/* Quellen */}
             <section className="mb-10">
               <p className="text-muted-foreground text-sm">
-                Stand: Dezember 2024
+                Quelle:{" "}
+                <a 
+                  href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Muster-Datenschutzerklärung
+                </a>{" "}
+                der{" "}
+                <a 
+                  href="https://www.ratgeberrecht.eu/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Anwaltskanzlei Weiß & Partner
+                </a>
               </p>
             </section>
           </div>
