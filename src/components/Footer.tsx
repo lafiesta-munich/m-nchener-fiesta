@@ -18,9 +18,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <h3 className="font-display text-3xl font-bold mb-4">Cantina München</h3>
+            <h3 className="font-display text-3xl font-bold mb-4">La Fiesta</h3>
             <p className="text-primary-foreground/70 mb-6 leading-relaxed">
-              Authentisches Mexiko im Herzen Münchens. Tacos, Tequila und unvergessliche Momente.
+              Cantina y Bar Mexicano – Authentisches Mexiko im Herzen Münchens.
             </p>
             <div className="flex gap-3">
               <a
@@ -64,19 +64,19 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                 <span className="text-primary-foreground/70">
-                  Maximilianstraße 42<br />80538 München
+                  Schwanthaler Straße 3<br />80336 München
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
-                <a href="tel:+498912345678" className="text-primary-foreground/70 hover:text-primary transition-colors">
-                  +49 89 123 456 78
+                <a href="tel:+498972609032" className="text-primary-foreground/70 hover:text-primary transition-colors">
+                  089 / 726 090 32
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary shrink-0" />
-                <a href="mailto:hola@cantina-muenchen.de" className="text-primary-foreground/70 hover:text-primary transition-colors">
-                  hola@cantina-muenchen.de
+                <a href="mailto:info@lafiesta-bar.de" className="text-primary-foreground/70 hover:text-primary transition-colors">
+                  info@lafiesta-bar.de
                 </a>
               </li>
             </ul>
@@ -89,13 +89,13 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Clock className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                 <div className="text-primary-foreground/70">
-                  <p className="font-medium text-primary-foreground">Di – So</p>
-                  <p>17:00 – 01:00 Uhr</p>
+                  <p className="font-medium text-primary-foreground">So – Do</p>
+                  <p>16:00 – 01:00 Uhr</p>
                 </div>
               </li>
               <li className="pl-8 text-primary-foreground/70">
-                <p className="font-medium text-primary-foreground">Montag</p>
-                <p>Ruhetag</p>
+                <p className="font-medium text-primary-foreground">Fr – Sa</p>
+                <p>16:00 – 05:00 Uhr</p>
               </li>
             </ul>
           </div>
@@ -106,7 +106,7 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/10">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/50">
-            <p>© {new Date().getFullYear()} Cantina München. Alle Rechte vorbehalten.</p>
+            <p>© {new Date().getFullYear()} La Fiesta München. Alle Rechte vorbehalten.</p>
             <div className="flex gap-6">
               <Link to="/impressum" className="hover:text-primary transition-colors">Impressum</Link>
               <Link to="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</Link>
