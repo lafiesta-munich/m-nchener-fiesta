@@ -20,10 +20,10 @@ const ContactSection = () => {
   };
 
   const contactInfo = [
-    { icon: MapPin, label: "Adresse", value: "Maximilianstraße 42, 80538 München" },
-    { icon: Phone, label: "Telefon", value: "+49 89 123 456 78" },
-    { icon: Mail, label: "E-Mail", value: "hola@cantina-muenchen.de" },
-    { icon: Clock, label: "Öffnungszeiten", value: "Di-So: 17:00 - 01:00 Uhr" },
+    { icon: MapPin, label: "Adresse", value: "Schwanthaler Straße 3, 80336 München" },
+    { icon: Phone, label: "Telefon", value: "089 / 726 090 32" },
+    { icon: Mail, label: "E-Mail", value: "info@lafiesta-bar.de" },
+    { icon: Clock, label: "Öffnungszeiten", value: "So–Do: 16:00–01:00 | Fr–Sa: 16:00–05:00" },
   ];
 
   return (
@@ -58,14 +58,14 @@ const ContactSection = () => {
             {/* Google Maps Embed */}
             <div className="rounded-2xl overflow-hidden border border-border h-[300px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.5847682647!2d11.5819!3d48.1391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDA4JzIwLjgiTiAxMcKwMzQnNTQuOCJF!5e0!3m2!1sde!2sde!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.6!2d11.5515!3d48.1371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f5a5a5a5a5%3A0x0!2sSchwanthaler%20Stra%C3%9Fe%203%2C%2080336%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Standort Cantina München"
+                title="Standort La Fiesta München"
               />
             </div>
           </div>
