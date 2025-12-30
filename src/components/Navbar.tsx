@@ -95,11 +95,19 @@ const Navbar = () => {
               useHeroStyle ? "text-primary-foreground" : "text-primary"
             }`}
           >
-            <img
-              src="/logo.png"
-              alt="Münchener Fiesta Logo"
-              className={`w-${isMobile ? 20 : 40} h-15 object-contain`}
-            />
+            {isMobile ? (
+              <img
+                src="/logo.png"
+                alt="Münchener Fiesta Logo"
+                className={`w-20 h-15 object-contain`}
+              />
+            ) : (
+              <img
+                src="/logo.png"
+                alt="Münchener Fiesta Logo"
+                className={`w-40 h-15 object-contain`}
+              />
+            )}
           </Link>
 
           {/* Desktop Navigation */}
