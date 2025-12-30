@@ -3,6 +3,22 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const useIsMobile = () => {
+  const [isMobile, setIsMobile] = useState(
+    window.innerWidth < 1024 // lg breakpoint
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return isMobile;
+};
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -12,6 +28,8 @@ const Navbar = () => {
   // Only use transparent hero style on homepage
   const isHomepage = location.pathname === "/";
   const useHeroStyle = isHomepage && !isScrolled;
+
+  const isMobile = useIsMobile();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -80,7 +98,7 @@ const Navbar = () => {
             <img
               src="/logo.png"
               alt="Münchener Fiesta Logo"
-              className="w-40 h-15 object-contain"
+              className={`w-${isMobile ? 20 : 40} h-15 object-contain`}
             />
           </Link>
 
