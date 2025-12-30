@@ -1,6 +1,6 @@
 import { PartyPopper, Sparkles, CalendarDays } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import eventsImg from "@/assets/events.jpg";
+import eventsImg from "@/assets/events.webp";
 
 const EventsSection = () => {
   const eventHighlights = [
@@ -33,13 +33,15 @@ const EventsSection = () => {
               Unsere Events
             </h2>
             <p className="text-muted-foreground text-lg mb-6">
-              Das ganze Jahr über veranstalten wir besondere Events für dich. 
-              Von thematischen Partys bis hin zu saisonalen Festen – bei uns ist immer was los!
+              Das ganze Jahr über veranstalten wir besondere Events für dich.
+              Von thematischen Partys bis hin zu saisonalen Festen – bei uns ist
+              immer was los!
             </p>
             <p className="text-muted-foreground text-lg mb-8">
-              Ob Silvester-Countdown mit Champagner und Tequila, gruselige Halloween-Nächte, 
-              festliche Weihnachtsfeiern oder das traditionelle Dia de los Muertos – 
-              wir feiern gemeinsam mit dir die schönsten Anlässe des Jahres.
+              Ob Silvester-Countdown mit Champagner und Tequila, gruselige
+              Halloween-Nächte, festliche Weihnachtsfeiern oder das
+              traditionelle Dia de los Muertos – wir feiern gemeinsam mit dir
+              die schönsten Anlässe des Jahres.
             </p>
 
             {/* Event Highlights */}
@@ -59,8 +61,19 @@ const EventsSection = () => {
               Folge uns auf Social Media, um keine Events zu verpassen!
             </p>
 
-            <Button variant="outline" size="lg" className="rounded-full">
-              Folge uns auf Instagram
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="rounded-full"
+            >
+              <a
+                href="https://www.instagram.com/la.fiesta.bar.muenchen/?hl=de"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Folge uns auf Instagram
+              </a>
             </Button>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Users, Cake, Building2, Heart } from "lucide-react";
-import privateEventsImg from "@/assets/private-events.jpg";
+import privateEventsImg from "@/assets/private-events.webp";
 
 const PrivateEventsSection = () => {
   const eventTypes = [
@@ -32,9 +32,9 @@ const PrivateEventsSection = () => {
               Private Feiern
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Du planst eine Feier? Wir bieten dir den perfekten Rahmen für dein Event. 
-              Von intimen Geburtstagsfeiern bis hin zu großen Firmenfeiern – 
-              wir kümmern uns um alles.
+              Du planst eine Feier? Wir bieten dir den perfekten Rahmen für dein
+              Event. Von intimen Geburtstagsfeiern bis hin zu großen
+              Firmenfeiern – wir kümmern uns um alles.
             </p>
 
             {/* Event Types */}
@@ -51,16 +51,18 @@ const PrivateEventsSection = () => {
             </div>
 
             <div className="bg-muted/50 p-6 rounded-xl mb-8">
-              <p className="text-foreground font-semibold mb-3">Was wir bieten:</p>
+              <p className="text-foreground font-semibold mb-3">
+                Was wir bieten:
+              </p>
               <ul className="text-muted-foreground space-y-2">
-                <li>• Separater Bereich für bis zu 40 Personen</li>
-                <li>• Individuelle Menü-Zusammenstellung</li>
-                <li>• Getränkepauschalen verfügbar</li>
+                <li>• Raum mieten</li>
                 <li>• Dekoration nach Wunsch</li>
               </ul>
             </div>
 
-            <Button size="lg" className="rounded-full">Anfrage senden</Button>
+            <Button asChild size="lg" className="rounded-full">
+              <a href="/#kontakt">Anfrage senden</a>
+            </Button>
           </div>
         </div>
       </div>

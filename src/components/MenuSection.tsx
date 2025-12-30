@@ -23,9 +23,9 @@ const MenuSection = () => {
               Unsere Speisekarte
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Von traditionellen Tacos bis hin zu kreativen Fusion-Gerichten – 
-              bei uns findest du für jeden Geschmack das Richtige. 
-              Alle Speisen werden frisch zubereitet.
+              Von traditionellen Tacos bis hin zu kreativen Fusion-Gerichten –
+              bei uns findest du für jeden Geschmack das Richtige. Alle Speisen
+              werden frisch zubereitet.
             </p>
 
             {/* Highlights */}
@@ -41,9 +41,11 @@ const MenuSection = () => {
               ))}
             </div>
 
-            <Button size="lg" className="group rounded-full">
-              Zur Speisekarte
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            <Button asChild size="lg" className="group rounded-full">
+              <a href="/speisekarte" className="flex items-center">
+                Zur Speisekarte
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </a>
             </Button>
           </div>
 

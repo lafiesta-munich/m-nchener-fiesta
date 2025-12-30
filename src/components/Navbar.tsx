@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -7,10 +7,42 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
-  
+  const navigate = useNavigate();
+
   // Only use transparent hero style on homepage
   const isHomepage = location.pathname === "/";
   const useHeroStyle = isHomepage && !isScrolled;
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const navbarHeight = 80;
+      const elementPosition =
+        element.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - navbarHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  const handleNavClick = (href: string, e: React.MouseEvent) => {
+    e.preventDefault();
+    setIsOpen(false);
+
+    if (href.startsWith("/#")) {
+      const sectionId = href.substring(2);
+
+      if (isHomepage) {
+        scrollToSection(sectionId);
+      } else {
+        navigate("/");
+        setTimeout(() => scrollToSection(sectionId), 100);
+      }
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,12 +53,12 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { href: "#happy-hour", label: "Happy Hour" },
+    { href: "/#happy-hour", label: "Happy Hour" },
     { href: "/speisekarte", label: "Speisekarte", isRoute: true },
-    { href: "#private-events", label: "Private Feiern" },
-    { href: "#events", label: "Events" },
-    { href: "#galerie", label: "Galerie" },
-    { href: "#kontakt", label: "Kontakt" },
+    { href: "/#private-events", label: "Private Feiern" },
+    { href: "/#events", label: "Events" },
+    { href: "/#galerie", label: "Galerie" },
+    { href: "/#kontakt", label: "Kontakt" },
   ];
 
   return (
@@ -45,7 +77,11 @@ const Navbar = () => {
               useHeroStyle ? "text-primary-foreground" : "text-primary"
             }`}
           >
-            Cantina München
+            <img
+              src="/logo.png"
+              alt="Münchener Fiesta Logo"
+              className="w-40 h-15 object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -67,7 +103,8 @@ const Navbar = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
+                  onClick={(e) => handleNavClick(link.href, e)}
+                  className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 cursor-pointer ${
                     useHeroStyle
                       ? "text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10"
                       : "text-foreground/80 hover:text-primary hover:bg-primary/10"
@@ -79,11 +116,20 @@ const Navbar = () => {
             )}
             <Button
               size="sm"
+              asChild
               className={`ml-4 rounded-full ${
-                useHeroStyle ? "bg-primary-foreground text-foreground hover:bg-primary-foreground/90" : ""
+                useHeroStyle
+                  ? "bg-primary-foreground text-foreground hover:bg-primary-foreground/90"
+                  : ""
               }`}
             >
-              Reservieren
+              <a
+                href="https://wa.me/4917665534350?text=Hallo%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Tisch%20reservieren."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Reservieren
+              </a>
             </Button>
           </div>
 
@@ -119,15 +165,21 @@ const Navbar = () => {
                   <a
                     key={link.href}
                     href={link.href}
-                    className="px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-colors"
-                    onClick={() => setIsOpen(false)}
+                    onClick={(e) => handleNavClick(link.href, e)}
+                    className="px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-colors cursor-pointer"
                   >
                     {link.label}
                   </a>
                 )
               )}
-              <Button size="sm" className="mt-4 rounded-full">
-                Reservieren
+              <Button size="sm" asChild className="mt-4 rounded-full">
+                <a
+                  href="https://wa.me/4917665534350?text=Hallo%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Tisch%20reservieren."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Reservieren
+                </a>
               </Button>
             </div>
           </div>

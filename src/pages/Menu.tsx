@@ -7,14 +7,14 @@ const Menu = () => {
   return (
     <main className="min-h-screen">
       <Navbar />
-      
+
       {/* Hero */}
       <section className="pt-32 pb-8 bg-gradient-to-b from-primary/10 to-background">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-display text-5xl md:text-6xl font-bold text-foreground mb-4">
             Unsere Speisekarte
           </h1>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-6">
+          <p className="text-foreground text-lg max-w-2xl mx-auto mb-6">
             Authentische mexikanische Küche mit frischen Zutaten
           </p>
           <Button asChild variant="outline" className="rounded-full">
