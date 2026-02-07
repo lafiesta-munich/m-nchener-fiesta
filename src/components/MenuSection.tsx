@@ -6,7 +6,7 @@ const MenuSection = () => {
   const highlights = [
     "Tacos & Burritos",
     "Nachos & Quesadillas",
-    "Tequila & Mezcal",
+    "Tequila & Weine",
     "Signature Cocktails",
   ];
 
