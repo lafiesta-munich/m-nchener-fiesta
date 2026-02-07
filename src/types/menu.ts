@@ -1,7 +1,13 @@
+export interface PriceVariant {
+  label: string;
+  price: string;
+}
+
 export interface Product {
   name: string;
-  description: string;
-  price: string;
+  description: string | { de: string; en: string };
+  price?: string; // für Abwärtskompatibilität
+  variants?: PriceVariant[];
 }
 
 export interface MenuSection {

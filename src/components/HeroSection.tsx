@@ -32,8 +32,9 @@ const HeroSection = () => {
             im Herzen Münchens
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-10 max-w-xl mx-auto font-light">
-            Authentische Cocktails, köstliche Tacos und eine Atmosphäre, die
-            dich direkt nach Mexiko versetzt.
+            Direkt am Stachus und neben dem Deutschen Theater - authentische
+            Cocktails, köstliche Tacos und eine Atmosphäre, die dich direkt nach
+            Mexiko versetzt.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild variant="hero" size="xl" className="rounded-full">

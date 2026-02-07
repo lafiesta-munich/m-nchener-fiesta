@@ -1,133 +1,2099 @@
 [
   {
-    "image": "cocktails.jpg",
+    "image": "/images/cocktails.webp",
     "id": 1,
-    "slug": "alkoholische-getraenke",
-    "title": "Alkoholische Getränke",
-    "sections": [
-      {
-        "title": "Bier",
-        "products": [
-          {
-            "name": "Augustiner Hell",
-            "description": "Augustiner Bier aus Bayern",
-            "price": "0,5L 5,90€"
-          },
-          {
-            "name": "Corona Extra",
-            "description": "Mexikanisches Lagerbier mit Limette",
-            "price": "0,33L 4,90€"
-          },
-          {
-            "name": "Modelo Especial",
-            "description": "Premium mexikanisches Pilsner",
-            "price": "0,33L 4,90€"
-          }
-        ]
-      },
-      {
-        "title": "Tequila & Mezcal",
-        "products": [
-          {
-            "name": "José Cuervo Silver",
-            "description": "Klassischer Blanco Tequila",
-            "price": "4cl 6,90€"
-          },
-          {
-            "name": "Patrón Reposado",
-            "description": "Premium gereifter Tequila",
-            "price": "4cl 9,90€"
-          },
-          {
-            "name": "Del Maguey Vida",
-            "description": "Handgefertigter Mezcal aus Oaxaca",
-            "price": "4cl 8,90€"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "image": "cocktails.jpg",
-    "id": 2,
     "slug": "cocktails",
     "title": "Cocktails",
     "sections": [
       {
-        "title": "Signature Cocktails",
+        "title": "Cocktails - Wodka",
         "products": [
           {
-            "name": "Margarita Clásica",
-            "description": "Tequila, Triple Sec, frischer Limettensaft, Salzrand",
-            "price": "12,90€"
+            "name": "HARVEY WALLBANGER",
+            "description": {
+              "de": "Wodka, Galliano, Orangensaft",
+              "en": "Vodka, Galliano, orange juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
           },
           {
-            "name": "Paloma",
-            "description": "Tequila, Grapefruitsoda, Limette, Salz",
-            "price": "11,90€"
+            "name": "FLYING KANGAROO",
+            "description": {
+              "de": "Weißer Rum, Wodka, Galliano, Ananassaft, Kokos, Sahne",
+              "en": "White rum, vodka, Galliano, pineapple juice, coconut, cream"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
           },
           {
-            "name": "Cantina Sunrise",
-            "description": "Tequila, Orangensaft, Grenadine, Limette",
-            "price": "11,90€"
+            "name": "KAMIKAZE",
+            "description": {
+              "de": "Wodka, Triple Sec, Zitronensaft, Lime Juice, Limetten",
+              "en": "Vodka, Triple Sec, lemon juice, lime juice, lime"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "BLOODY MARY",
+            "description": {
+              "de": "Wodka, Tomatensaft, Zitronensaft, Gewürze",
+              "en": "Vodka, tomato juice, lemon juice, spices"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "SEX ON THE BEACH",
+            "description": {
+              "de": "Wodka, Peachtree, Lime Juice, Cranberry Zitronen-, Maracujasaft, Ananssaft",
+              "en": "Vodka, Peachtree liqueur, lime juice, cranberry, lemon, passion fruit & pineapple juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "SWIMMING POOL",
+            "description": {
+              "de": "Wodka, Rum, Blue Curaçao1, Ananassaft, Sahne, Kokos",
+              "en": "Vodka, rum, Blue Curaçao1, pineapple juice, cream, coconut"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "TOUCHDOWN",
+            "description": {
+              "de": "Wodka, Apricot Brandy, Lime Juice, Zitronensaft, Grenadine, Maracujasaft",
+              "en": "Vodka, apricot brandy, lime & lemon juice, grenadine syrup, passion fruit"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "WHITE CLOUD",
+            "description": {
+              "de": "Wodka, Creme de Cacao, Kokos, Sahne, Ananassaft",
+              "en": "Vodka, crème de cacao, coconut, cream, pineapple juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "MOSCOW MULE",
+            "description": {
+              "de": "Wodka, Lime, Ginger Ale",
+              "en": "Vodka, lime, ginger ale"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "SOLERO",
+            "description": {
+              "de": "Wodka, Vanille, Maracuja, Zitrone",
+              "en": "Vodka, vanilla, passion fruit, lemon"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "MELON COOLER",
+            "description": {
+              "de": "Wodka, Apricot Brandy, Melonenlikör, Lime Juice, Zitrone, Orangensaft",
+              "en": "Vodka, apricot brandy, melon liqueur, lime juice, lemon, orange juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "COSMOPOLITAN",
+            "description": {
+              "de": "Wodka, Triple Sec, Lime Juice, Zitronensaft, Cranberry",
+              "en": "Vodka, Triple Sec, lime juice, lemon juice, cranberry"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "WHITE RUSSIAN",
+            "description": {
+              "de": "Wodka, Kahlua, Sahne",
+              "en": "Vodka, Kahlua, cream"
+            },
+            "variants": [{ "label": "Small", "price": "9,90€" }]
+          },
+          {
+            "name": "SCREAMING ORGASM",
+            "description": {
+              "de": "Wodka, Amaretto, Kahlua, Baileys, Sahne",
+              "en": "Vodka, Amaretto, Kahlua, Baileys, cream"
+            },
+            "variants": [{ "label": "Small", "price": "9,90€" }]
           }
         ]
       },
       {
-        "title": "Klassiker",
+        "title": "Cocktails - Rum",
         "products": [
           {
-            "name": "Mojito",
-            "description": "Rum, Minze, Limette, Rohrzucker, Soda",
-            "price": "11,90€"
+            "name": "PLANTERS PUNCH",
+            "description": {
+              "de": "Brauner Rum, Triple Sec, Lime Juice, Zitronensaft, Orangensaft, Ananassaft, Grenadine",
+              "en": "Brown rum, Triple Sec, lime, lemon, orange & pineapple juice, grenadine syrup"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
           },
           {
-            "name": "Caipirinha",
-            "description": "Cachaça, Limette, Rohrzucker",
-            "price": "10,90€"
+            "name": "FLYING KANGAROO",
+            "description": {
+              "de": "Weißer Rum, Wodka, Galliano, Ananassaft, Kokos, Sahne",
+              "en": "White rum, vodka, Galliano, pineapple juice, coconut, cream"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "FLAMINGO",
+            "description": {
+              "de": "Brauner Rum, Apricot Brandy, Lime Juice, Ananassaft",
+              "en": "Brown rum, apricot brandy, lime juice, pineapple juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "MAI TAI",
+            "description": {
+              "de": "Brauner Rum, Apricot Brandy, Mandel, Zitronensaft, Lime Juice, Limetten",
+              "en": "Brown rum, apricot brandy, almond, lemon juice, lime juice, lime"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "MOJITO",
+            "description": {
+              "de": "Weißer Rum, Limetten, Zucker, Minze, Lime Juice, Soda",
+              "en": "White rum, lime, sugar, mint, lime juice, soda"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "LA FIESTA SUNRISE",
+            "description": {
+              "de": "Brauner Rum, Ananassaft, Maracujasaft, Zitronensaft, Angostura, Grenadine",
+              "en": "Brown rum, pineapple, passion fruit & lemon juice, Angostura bitters, grenadine syrup"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "JAMAICA FEVER",
+            "description": {
+              "de": "Brandy, Brauner Rum, Mango, Orangensaft, Zitronensaft",
+              "en": "Brandy, brown rum, mango, orange & lemon juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "MANGO MAI TAI",
+            "description": {
+              "de": "Jamaica Rum, Apricot Brandy, Lime Juice, Zitrone, Mangosaft, Ananassaft",
+              "en": "Brandy, brauner rum, Mango, orange, lemon juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "PIÑA COLADA",
+            "description": {
+              "de": "Weißer Rum, Kokos, Ananassaft, Sahne",
+              "en": "White rum, coconut, pineapple juice, cream"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CHOCOLATE COLADA",
+            "description": {
+              "de": "Schokoladenliqueur, Malibu, Sahne, Ananassaft",
+              "en": "Chocolate liqueur, Malibu, cream, pineapple juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "HONOLULU JUICER",
+            "description": {
+              "de": "Brauner Rum, Southern Comfort, Lime Juice, Zitronensaft, Ananassaft",
+              "en": "Brown rum, Southern Comfort, lime, lemon & pineapple juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "MARC'S TOTEM",
+            "description": {
+              "de": "Versch. Rum, Amaretto1, Zitronensaft, Ananassaft, Orangensaft, Grenadine",
+              "en": "Rum, Amaretto1, lemon, pineapple & orange juice, grenadine syrup"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "GUADALUPE",
+            "description": {
+              "de": "Weißer Rum, Grand Marnier, Kokos, Ananassaft, Orangensaft",
+              "en": "White rum, Grand Marnier, coconut, pineapple & orange juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "LA FIESTA SPECIAL",
+            "description": {
+              "de": "Versch. Rum, Bananenlikör, Ananassaft, Orangensaft, Muskat",
+              "en": "Rum, banana liqueur, pineapple & orange juice, nutmeg"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CARIBEAN LOVER",
+            "description": {
+              "de": "Versch. Rum, Triple Sec, Lime Juice, Zitronensaft. Ananassaft, Maracuja",
+              "en": "Rum, Triple Sec, lime, lemon & pineapple juice, passion fruit"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "STRAWBERRY COLADA",
+            "description": {
+              "de": "Brauner Rum, Kokos, Sahne, Ananassaft, pürierte Erdbeeren",
+              "en": "Brown rum, coconut, cream, pineapple juice, strawberry purée"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "ZOMBIE",
+            "description": {
+              "de": "Drei Sorten Rum, Cherry Brandy, Lime Juice, Zitronensaft, Orangensaft, Ananassaft",
+              "en": "Three types of rum, cherry brandy, lime, lemon, orange & pineapple juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "RUM RUNNER",
+            "description": {
+              "de": "Rum, Creme de Banane,Grenadine, Lime Juice, Orangensaft",
+              "en": "Rum, crème de banane, grenadine syrup, lime & orange juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "BAHAMA MAMA",
+            "description": {
+              "de": "Rum, Creme de Banane, Grenadine, Orangensaft, Ananassaft",
+              "en": "Rum, crème de banane, grenadine syrup, orange & pineapple juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cocktails - Gin",
+        "products": [
+          {
+            "name": "ALABAMA SLAMMER",
+            "description": {
+              "de": "Gin, Southern Comfort, Amaretto, Zitronensaft, Orange",
+              "en": "Gin, Southern Comfort, Amaretto, lemon juice, orange"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "BOSTON",
+            "description": {
+              "de": "Gin, Apricot Brandy, Grenadine, Orangensaft, Zitronensaft",
+              "en": "Gin, apricot brandy, grenadine syrup orange & lemon juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "SINGAPORE SLING",
+            "description": {
+              "de": "Gin, Cherry Brandy, Zucker, Zitronensaft, Soda",
+              "en": "Gin, cherry brandy, sugar, lemon juice, soda"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "GIMLET",
+            "description": {
+              "de": "Gin oder Wodka, Lime Juice, Zitronensaft",
+              "en": "Gin or vodka, lime juice, lemon juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "GIN FIZZ",
+            "description": {
+              "de": "Gin, Zitronensaft, Zucker, Soda",
+              "en": "Gin, lemon juice, sugar, soda"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "GIN TAI",
+            "description": {
+              "de": "Gin, Apricot Brandy, Mandel, Lime Juice, Zitronensaft, Ananassaft",
+              "en": "Gin, apricot brandy, almond, lime, lemon & pineapple juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "LADY KILLER",
+            "description": {
+              "de": "Gin, Triple Sec, Zitronensaft, Apricot Brandy, Ananassaft, Orangensaft",
+              "en": "Gin, Triple Sec, lemon juice, apricot brandy, pineapple & orange juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cocktails - Tequila",
+        "products": [
+          {
+            "name": "MEXICANA",
+            "description": {
+              "de": "Tequila, Zitronensaft, Ananassaft, Grenadine",
+              "en": "Tequila, lemon & pineapple juice, grenadine syrup"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "BLOODY MARIA",
+            "description": {
+              "de": "Tequila, Tomatensaft, Zitronensaft, Gewürze",
+              "en": "Tequila, tomato juice, lemon juice, spices"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "EL HOMBRE",
+            "description": {
+              "de": "Tequila Gold, Dry Orange, Lime Juice, Zitronensaft, Orangensaft",
+              "en": "Tequila Gold, dry orange, lime, lemon & orange juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "TEQUILA SUNRISE",
+            "description": {
+              "de": "Tequila, Orangensaft, Grenadine",
+              "en": "Tequila, orange juice, grenadine syrup"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "EL DIABLO",
+            "description": {
+              "de": "Tequila, Creme de Cassis, Limette, Ginger Ale",
+              "en": "Tequila, creme de cassis, lime, ginger ale"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cocktails - Whiskey",
+        "products": [
+          {
+            "name": "FOURTH OF JULY",
+            "description": {
+              "de": "Bourbon Whiskey, Apricot Brandy, Orangensaft, Zitronensaft",
+              "en": "Bourbon whiskey, apricot brandy, orange & lemon juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "BOUNTY",
+            "description": {
+              "de": "Creme de Cacao, Amaretto, Kokos, Sahne",
+              "en": "Crème de cacao, Amaretto, coconut, cream"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "BABY",
+            "description": {
+              "de": "Creme de Banana, Likör 43, Sahne",
+              "en": "Crème de banane, Licor 43, cream"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "SOUTHERN WHEELER",
+            "description": {
+              "de": "Bourbon, Southern Comfort, Mandel, Lime Juice, Zitronensaft, Orangensaft",
+              "en": "Bourbon, Southern Comfort, almond, lime juice, lemon juice, orange juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "HECTOR-LORENZO",
+            "description": {
+              "de": "Bourbon, Southern Comfort, Lime Juice, Grenadine, Zitronensaft, Orangensaft",
+              "en": "Bourbon, Southern Comfort, lime juice, grenadine syrup, lemon & orange juice"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
           }
         ]
       }
     ]
   },
   {
-    "image": "cocktails.jpg",
-    "id": 3,
-    "slug": "alkoholfreie-getraenke",
-    "title": "Alkoholfreie Getränke",
+    "image": "/images/especial-cocktails.webp",
+    "id": 1,
+    "slug": "especial-cocktails",
+    "title": "Especial Cocktails",
     "sections": [
       {
-        "title": "Softdrinks",
+        "title": "Especial Cocktails",
         "products": [
           {
-            "name": "Coca Cola",
-            "description": "Classic, Zero oder Light",
-            "price": "0,3L 3,90€"
+            "name": "KILLER COOL AID",
+            "description": {
+              "de": "Wodka, Amaretto, Peachtree, Lime Juice, Zitronensaft, Johannisbeersaft",
+              "en": "Vodka, Amaretto, Peachtree liqueur, lime, lemon & black currant juice"
+            },
+            "price": "14,50€"
           },
           {
-            "name": "Sprite",
-            "description": "Erfrischend zitronig",
-            "price": "0,3L 3,90€"
+            "name": "LECTRIC LEMONADE",
+            "description": {
+              "de": "Gin, Weißer Rum, Tequila, Triple Sec, Wodka, Lime Juice, Zitronensaft, Limonade",
+              "en": "Gin, white rum, tequila, Triple Sec, vodka, lime & lemon juice, lemonade"
+            },
+            "price": "14,50€"
           },
           {
-            "name": "Jarritos",
-            "description": "Mexikanische Limonade, verschiedene Sorten",
-            "price": "0,37L 4,50€"
+            "name": "LONG ISLAND ICE TEA",
+            "description": {
+              "de": "Gin, Weißer Rum, Tequila, Triple Sec, Wodka, Cola, Zitronensaft",
+              "en": "Gin, white rum, tequila, Triple Sec, vodka, cola, lemon juice"
+            },
+            "price": "14,50€"
+          },
+          {
+            "name": "HURRICANE",
+            "description": {
+              "de": "Drei Sorten Rum, Apricot Brandy, Lime Juice, Zitronensaft, Orangensaft, Ananassaft, Grenadine",
+              "en": "Three types of rum, apricot brandy, lime, lemon, orange & pineapple juice, grenadine syrup"
+            },
+            "price": "14,50€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/non-alc-cocktail.webp",
+    "id": 1,
+    "slug": "non-alcoholic-cocktails",
+    "title": "Non-Alcoholic Cocktails",
+    "sections": [
+      {
+        "title": "Non-Alcoholic Cocktails",
+        "products": [
+          {
+            "name": "MADONNA",
+            "description": {
+              "de": "Ananassaft, Maracujasaft, Orangensaft, Lime Juice, Blue Curaçao Alkoholfrei",
+              "en": "pineapple, passion fruit, orange & lime juice, alcohol-free Blue Curacao"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "12,90€" }
+            ]
+          },
+          {
+            "name": "COCONUT KISS",
+            "description": {
+              "de": "Kokos, Sahne, Ananassaft, Grenadine",
+              "en": "Coconut, cream, pineapple juice, grenadine syrup"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "12,90€" }
+            ]
+          },
+          {
+            "name": "PUSSY FOOT",
+            "description": {
+              "de": "Orangen-, Bananen-, Ananassaft, Sahne, Mandel, Erdbeer",
+              "en": "Orange, banana & pineapple juice, cream, almond, strawberry"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "12,90€" }
+            ]
+          },
+          {
+            "name": "TROPICANA",
+            "description": {
+              "de": "Kokos, Sahne, Ananassaft, Maracujasaft, Orangensaft, Blue Curaçao Alkoholfrei",
+              "en": "Coconut, cream, pineapple, passion fruit & orange juice, alcohol-free Blue Curacao "
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "12,90€" }
+            ]
+          },
+          {
+            "name": "DRIVER",
+            "description": {
+              "de": "Zitronensaft Orangensaft, Ananassaft, Lime Juice, Lemon Juice, Grenadine",
+              "en": "Lemon, orange, pineapple & lime juice, grenadine syrup"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "12,90€" }
+            ]
+          },
+          {
+            "name": "IPANEMA (Caipirinha Alkoholfrei)",
+            "description": {
+              "de": "Ginger Ale, Lime Juice, Zitonensaft, Brauner Zucker, Limetten",
+              "en": "Ginger Ale, lime & lemon juice, brown sugar, lime"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "12,90€" }
+            ]
+          },
+          {
+            "name": "MOSQUITOS (Mojito Alkoholfrei)",
+            "description": {
+              "de": "Zitronenlimo, Tonic Water, Lime Juice, Minze, Limetten, Puderzucker",
+              "en": "Lemonade, tonic water, lime juice, mint, lime, icing sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "12,90€" }
+            ]
+          },
+          {
+            "name": "STRAWBERRY CAIPINADA",
+            "description": {
+              "de": "Erdbeeren, Limitten, Brauner Zucker, Sprite",
+              "en": "Strawberries, lime, brown sugar, Sprite"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "12,90€" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/margarita.webp",
+    "id": 1,
+    "slug": "margarita",
+    "title": "Margarita",
+    "sections": [
+      {
+        "title": "Margarita",
+        "products": [
+          {
+            "name": "MARGARITA CLASSIC",
+            "description": {
+              "de": "Tequila, Triple Sec, Zitronensaft",
+              "en": "Tequila, Triple Sec, lemon juice"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "STRAWBERRY MARGARITA",
+            "description": {
+              "de": "Tequila, Triple Sec, pürierte Erdbeeren",
+              "en": "Tequila, Triple Sec, strawberry purée"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "FROZEN STRAWBERRY MARGARITA",
+            "description": {
+              "de": "Tequila, Triple Sec, pürierte Erdbeeren",
+              "en": "Tequila, Triple Sec, strawberry purée"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "BANANA MARGARITA",
+            "description": {
+              "de": "Tequila, Triple Sec, Bananen",
+              "en": "Tequila, Triple Sec, banana"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "MANGO MARGARITA",
+            "description": {
+              "de": "Tequila, Triple Sec, pürierte Mango",
+              "en": "Tequila, Triple Sec, mango purée"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "FROZEN MANGO MARGARITA",
+            "description": {
+              "de": "Tequila, Triple Sec, pürierte Mango",
+              "en": "Tequila, Triple Sec, mango purée"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "PINEAPPLE MARGARITA",
+            "description": {
+              "de": "Tequila, Triple Sec, Ananassaft",
+              "en": "Tequila, Triple Sec, pineapple juice"
+            },
+            "price": "11,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/daiquiri.webp",
+    "id": 1,
+    "slug": "daiquiri",
+    "title": "Daiquiri",
+    "sections": [
+      {
+        "title": "Daiquiri",
+        "products": [
+          {
+            "name": "DAIQUIRI CLASSIC",
+            "description": {
+              "de": "Weißer Rum, Zitronensaft, Zucke",
+              "en": "White rum, lemon juice, sugar"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "STRAWBERRY DAIQUIRI",
+            "description": {
+              "de": "Weißer Rum, Zitronensaft, pürierte Erdbeeren",
+              "en": "White rum, lemon juice, strawberry purée"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "FROZEN STRAWBERRY DAIQUIRI",
+            "description": {
+              "de": "Weißer Rum, Zitronensaft, pürierte Erdbeeren",
+              "en": "White rum, lemon juice, strawberry purée"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "BANANA DAIQUIRI",
+            "description": {
+              "de": "Weißer Rum, Zitronensaft, Bananen",
+              "en": "White rum, lemon juice, banana"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "MANGO DAIQUIRI",
+            "description": {
+              "de": "Weißer Rum, Zitronensaft, pürierte Mango",
+              "en": "White rum, lemon juice, mango purée"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "FROZEN MANGO DAIQUIRI",
+            "description": {
+              "de": "Weißer Rum, Zitronensaft, pürierte Mango",
+              "en": "White rum, lemon juice, mango purée"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "PINEAPPLE DAIQUIRI",
+            "description": {
+              "de": "Weißer Rum, Zitronensaft, Ananassaft",
+              "en": "White rum, lemon juice, pineapple juice"
+            },
+            "price": "11,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/caipis.webp",
+    "id": 1,
+    "slug": "caipis",
+    "title": "Caipis",
+    "sections": [
+      {
+        "title": "Caipis",
+        "products": [
+          {
+            "name": "CAIPIRINHA",
+            "description": {
+              "de": "mit Cachaca",
+              "en": "with Cachaca"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPIROSKA",
+            "description": {
+              "de": "mit Wodka",
+              "en": "with vodka"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPIMAICA",
+            "description": {
+              "de": "mit braunen Rum",
+              "en": "with brown rum"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPIQUILA",
+            "description": {
+              "de": "mit weißem Rum & Wodka",
+              "en": "with white rum & vodka"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPISECCO",
+            "description": {
+              "de": "mit Prosecco",
+              "en": "with Prosecco"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPIROL",
+            "description": {
+              "de": "mit Aperol",
+              "en": "with Aperol"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPIGIN",
+            "description": {
+              "de": "mit Gin",
+              "en": "with gin"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPIMASTER",
+            "description": {
+              "de": "mit Jägermeister",
+              "en": "with Jägermeister"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPIBERRY",
+            "description": {
+              "de": "mit Erdbeeren & Wodka",
+              "en": "with strawberries & vodka"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "CAIPIRINHA CUBANA",
+            "description": {
+              "de": "mit Rum, Mandel, Erdbeeren, Maracuja",
+              "en": "with rum, almond, strawberries, passion fruit"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/sours.webp",
+    "id": 1,
+    "slug": "sours",
+    "title": "Sours",
+    "sections": [
+      {
+        "title": "Sours",
+        "products": [
+          {
+            "name": "WHISKY",
+            "description": {
+              "de": "mit Zitronen-, Orangensaft & Zucker",
+              "en": "with lemon & orange juice and sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "AMARETTO",
+            "description": {
+              "de": "mit Zitronen-, Orangensaft & Zucker",
+              "en": "with lemon & orange juice and sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "WODKA",
+            "description": {
+              "de": "mit Zitronen-, Orangensaft & Zucker",
+              "en": "with lemon & orange juice and sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "TEQUILA",
+            "description": {
+              "de": "mit Zitronen-, Orangensaft & Zucker",
+              "en": "with lemon & orange juice and sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "APEROL",
+            "description": {
+              "de": "mit Zitronen-, Orangensaft & Zucker",
+              "en": "with lemon & orange juice and sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "BRANDY",
+            "description": {
+              "de": "mit Zitronen-, Orangensaft & Zucker",
+              "en": "with lemon & orange juice and sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "JAMAIKA",
+            "description": {
+              "de": "mit Zitronen-, Orangensaft & Zucker",
+              "en": "with lemon & orange juice and sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          },
+          {
+            "name": "SOUTHERN COMFORT",
+            "description": {
+              "de": "mit Zitronen-, Orangensaft & Zucker",
+              "en": "with lemon & orange juice and sugar"
+            },
+            "variants": [
+              { "label": "Small", "price": "9,90€" },
+              { "label": "Jumbo", "price": "13,90€" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/hardstuff.webp",
+    "id": 1,
+    "slug": "hardstuff",
+    "title": "Hardstuff",
+    "sections": [
+      {
+        "title": "BOURBON, SCOTCH & MALT",
+        "products": [
+          {
+            "name": "Jim Beam",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          },
+          {
+            "name": "Jack Daniels",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          },
+          {
+            "name": "Johnnie Walker Scotch",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          },
+          {
+            "name": "Maccallan Single Malt",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "11,90€" }]
           }
         ]
       },
       {
-        "title": "Aguas Frescas",
+        "title": "RUM",
         "products": [
           {
-            "name": "Horchata",
-            "description": "Traditionelles Reisgetränk mit Zimt",
-            "price": "0,4L 5,90€"
+            "name": "Bacardi white/black",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
           },
           {
-            "name": "Jamaica",
-            "description": "Hibiskusblütentee, erfrischend süß-säuerlich",
-            "price": "0,4L 5,90€"
+            "name": "Havana Club 3 Years",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          }
+        ]
+      },
+      {
+        "title": "BRANDY & COGNAC",
+        "products": [
+          {
+            "name": "Carlos I",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          },
+          {
+            "name": "Hennessy v.s.",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          },
+          {
+            "name": "Remy Martin V.S.O.P.",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          }
+        ]
+      },
+      {
+        "title": "WODKA",
+        "products": [
+          {
+            "name": "Absolut",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          },
+          {
+            "name": "Smirnoff",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          }
+        ]
+      },
+      {
+        "title": "GIN",
+        "products": [
+          {
+            "name": "Tanqueray English Dry Gin",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          },
+          {
+            "name": "Gordon's Dry Gin",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          },
+          {
+            "name": "Bombay Sapphire",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "8,90€" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/longdrinks.webp",
+    "id": 1,
+    "slug": "longdrink",
+    "title": "Longdrink",
+    "sections": [
+      {
+        "title": "Longdrink",
+        "products": [
+          {
+            "name": "WODKA RED BULL",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "WHISKEY COLA",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "BACARDI COLA",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "CUBA LIBRE",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "GIN TONIC",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "WODKA LEMON",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "WODKA ORANGE",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "WODKA SODA",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "CAMPARI ORANGE",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "CAMPARI SODA",
+            "description": "",
+            "price": "11,90€"
+          },
+          {
+            "name": "JÄGER BULL",
+            "description": "",
+            "price": "11,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/liqeur.webp",
+    "id": 1,
+    "slug": "Liqueur",
+    "title": "Liqueur",
+    "sections": [
+      {
+        "title": "Liqueur",
+        "products": [
+          {
+            "name": "Baileys",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          },
+          {
+            "name": "Ramazotti",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          },
+          {
+            "name": "Martini",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          },
+          {
+            "name": "Jägermeister",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          },
+          {
+            "name": "Sambuca",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          },
+          {
+            "name": "Grappa",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          },
+          {
+            "name": "Averna",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          },
+          {
+            "name": "Campari",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          },
+          {
+            "name": "Fernet - Branca",
+            "description": "",
+            "variants": [{ "label": "4cl", "price": "6,90€" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/bottles.webp",
+    "id": 1,
+    "slug": "bottles",
+    "title": "Flaschen - Bottles",
+    "sections": [
+      {
+        "title": "Wodka",
+        "products": [
+          {
+            "name": "SMIRNOFF",
+            "description": "",
+            "variants": [
+              { "label": "0,7L", "price": "85,00€" },
+              {
+                "label": "1L",
+                "price": "120,00€"
+              }
+            ]
+          },
+          {
+            "name": "ABSOLUT",
+            "description": "",
+            "variants": [
+              { "label": "0,5L", "price": "65,00€" },
+              {
+                "label": "0,7L",
+                "price": "85,00€"
+              },
+              {
+                "label": "1L",
+                "price": "120,00€"
+              }
+            ]
+          },
+          {
+            "name": "GREY GROOS",
+            "description": "",
+            "variants": [
+              { "label": "0,5L", "price": "135,00€" },
+              {
+                "label": "1,5L",
+                "price": "325,00€"
+              },
+              {
+                "label": "3L",
+                "price": "635,00€"
+              }
+            ]
+          },
+          {
+            "name": "BELVEDERE",
+            "description": "",
+            "variants": [
+              { "label": "0,7L", "price": "135,00€" },
+              {
+                "label": "1,7L",
+                "price": "345,00€"
+              },
+              {
+                "label": "3L",
+                "price": "635,00€"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Whiskey",
+        "products": [
+          {
+            "name": "JIM BEAM",
+            "description": "",
+            "variants": [
+              { "label": "0,7L", "price": "75,00€" },
+              {
+                "label": "1L",
+                "price": "95,00€"
+              }
+            ]
+          },
+          {
+            "name": "JACK DANIELS",
+            "description": "",
+            "variants": [
+              { "label": "0,7L", "price": "85,00€" },
+              {
+                "label": "1L",
+                "price": "120,00€"
+              }
+            ]
+          },
+          {
+            "name": "Johnnie Walker Scotch Red Lable",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "85,00€" }]
+          },
+          {
+            "name": "Johnnie Walker Scotch Black Lable",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "120,00€" }]
+          }
+        ]
+      },
+      {
+        "title": "Rum",
+        "products": [
+          {
+            "name": "Havana Club 3 Years",
+            "description": "",
+            "variants": [
+              { "label": "0,7L", "price": "85,00€" },
+              {
+                "label": "1L",
+                "price": "120,00€"
+              }
+            ]
+          },
+          {
+            "name": "Havana Club 7 Years",
+            "description": "",
+            "variants": [
+              {
+                "label": "0,7L",
+                "price": "120,00€"
+              }
+            ]
+          },
+          {
+            "name": "Brugal Añejo",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "115,00€" }]
+          },
+          {
+            "name": "Bacardi white/black",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "85,00€" }]
+          },
+          {
+            "name": "Captain Morgan",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "85,00€" }]
+          }
+        ]
+      },
+      {
+        "title": "Gin",
+        "products": [
+          {
+            "name": "BOMBAY",
+            "description": "",
+            "variants": [
+              { "label": "0,7L", "price": "85,00€" },
+              {
+                "label": "1L",
+                "price": "120,00€"
+              }
+            ]
+          },
+          {
+            "name": "Tanqueray",
+            "description": "",
+            "variants": [
+              { "label": "0,7L", "price": "95,00€" },
+              {
+                "label": "1L",
+                "price": "130,00€"
+              }
+            ]
+          },
+          {
+            "name": "Hendrick‘s Gin",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "105,00€" }]
+          }
+        ]
+      },
+      {
+        "title": "Cahmpagne",
+        "products": [
+          {
+            "name": "Moët & Chandon",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "105,00€" }]
+          },
+          {
+            "name": "Moët & Chandon Rose",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "125,00€" }]
+          },
+          {
+            "name": "Moët & Chandon Ice Imperial",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "145,00€" }]
+          },
+          {
+            "name": "Moët & Chandon Ice Imperial Rosé",
+            "description": "",
+            "variants": [{ "label": "0,7L", "price": "155,00€" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/wein.webp",
+    "id": 1,
+    "slug": "vinos",
+    "title": "Weine - Vinos",
+    "sections": [
+      {
+        "title": "Weißwein",
+        "products": [
+          {
+            "name": "LUGANA",
+            "description": "",
+            "variants": [{ "label": "0,75L", "price": "35,00€" }]
+          },
+          {
+            "name": "PINOT GRIGIO (ITALIEN)",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "6,90€" },
+              { "label": "0,75L", "price": "27,90€" }
+            ]
+          },
+          {
+            "name": "CHARDONNAY (FRANKREICH)",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "6,90€" },
+              { "label": "0,75L", "price": "26,90€" }
+            ]
+          },
+          {
+            "name": "ROSE",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "6,90€" },
+              { "label": "0,75L", "price": "27,90€" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Rotwein",
+        "products": [
+          {
+            "name": "RIOJA (SPANIEN)",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "6,90€" },
+              { "label": "0,75L", "price": "28,90€" }
+            ]
+          },
+          {
+            "name": "MERLOT (FRANKREICH)",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "6,90€" },
+              { "label": "0,75L", "price": "24,90€" }
+            ]
+          },
+          {
+            "name": "CABERNET SAUVIGNON",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "6,90€" },
+              { "label": "0,75L", "price": "29,90€" }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Weinschorle",
+        "products": [
+          {
+            "name": "ROT/WEIß",
+            "description": "",
+            "variants": [{ "label": "0,2L", "price": "5,90€" }]
+          },
+          {
+            "name": "PROSECCOm",
+            "description": "",
+            "variants": [{ "label": "0,75L", "price": "32,90€" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/prosecco.webp",
+    "id": 1,
+    "slug": "prosecco",
+    "title": "Prosecco Soda",
+    "sections": [
+      {
+        "title": "Prosecco",
+        "products": [
+          {
+            "name": "HUGO",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "APEROL",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "HONIGMELONE",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "ERDBEERE",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "CRANBERRY",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "MARACUJA",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "CASSIS",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "BLUE CURAÇAO",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "CARAMEL",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "PEACH",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "MANGO",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "LIQUEUR 43 (Curenta y tres)",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "SPARKLING RED BULL",
+            "description": "Prosecco, Red Bull, Minze",
+            "price": "8,50€"
+          },
+          {
+            "name": "APRICOT",
+            "description": "",
+            "price": "8,50€"
+          },
+          {
+            "name": "WASSERMELONE",
+            "description": "",
+            "price": "8,50€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/bier.webp",
+    "id": 1,
+    "slug": "cervezas",
+    "title": "Cervezas / Bier",
+    "sections": [
+      {
+        "title": "Cervezas",
+        "products": [
+          {
+            "name": "CORONA",
+            "description": "",
+            "variants": [{ "label": "0,33L", "price": "4,90€" }]
+          },
+          {
+            "name": "BECKS",
+            "description": "",
+            "variants": [{ "label": "0,33L", "price": "4,90€" }]
+          },
+          {
+            "name": "BECKS LIMON",
+            "description": "",
+            "variants": [{ "label": "0,33L", "price": "4,90€" }]
+          },
+          {
+            "name": "SAN MIGUEL",
+            "description": "",
+            "variants": [{ "label": "0,33L", "price": "4,90€" }]
+          },
+          {
+            "name": "HEINIKEN",
+            "description": "",
+            "variants": [{ "label": "0,33L", "price": "4,90€" }]
+          },
+          {
+            "name": "HELL VOM FASS",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          },
+          {
+            "name": "HELL ALKOHOLFREI",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          },
+          {
+            "name": "RADLER",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          },
+          {
+            "name": "FANZISKANER WEISSBIER HELL VOM FASS",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          },
+          {
+            "name": "FANZISKANER WEISSBIER DUNKEL",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          },
+          {
+            "name": "FANZISKANER WEISSBIER LEICHT",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          },
+          {
+            "name": "FANZISKANER WEISSBIER ALKOHOLFREI",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          },
+          {
+            "name": "RUSSE",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          },
+          {
+            "name": "COLAWEIZEN",
+            "description": "",
+            "variants": [{ "label": "0,5", "price": "4,90€" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/shots.webp",
+    "id": 1,
+    "slug": "shots",
+    "title": "Shots",
+    "sections": [
+      {
+        "title": "Shots",
+        "products": [
+          {
+            "name": "SIERRA",
+            "description": "Gold/Silver",
+            "variants": [{ "label": "2cl", "price": "2,90€" }]
+          },
+          {
+            "name": "SIUA",
+            "description": "Gold/Silver",
+            "variants": [{ "label": "2cl", "price": "3,50€" }]
+          },
+          {
+            "name": "OLMECA ANEJO",
+            "description": "Gold/Silver",
+            "variants": [{ "label": "2cl", "price": "3,50€" }]
+          },
+          {
+            "name": "JOSE CUERVO",
+            "description": "Gold/Silver",
+            "variants": [{ "label": "2cl", "price": "3,50€" }]
+          },
+          {
+            "name": "DON JULIO",
+            "description": "",
+            "variants": [{ "label": "2cl", "price": "4,80€" }]
+          },
+          {
+            "name": "JÄGERMEISTER",
+            "description": "",
+            "variants": [{ "label": "2cl", "price": "2,90€" }]
+          },
+          {
+            "name": "FRANGELICO",
+            "description": "",
+            "variants": [{ "label": "2cl", "price": "2,90€" }]
+          },
+          {
+            "name": "B52",
+            "description": {
+              "de": "Captain Morgan, Baileys & Kahlua",
+              "en": "Captain Morgan, Baileys & Kahlua"
+            },
+            "variants": [{ "label": "4cl", "price": "6,80€" }]
+          },
+          {
+            "name": "WODKA SCHNEE",
+            "description": {
+              "de": "Wodka mit Blue Curiacao1, Puderzucker, Limette",
+              "en": "Vodka with Blue curiacao1, icing sugar, lime"
+            },
+            "variants": [{ "label": "2cl", "price": "3,50€" }]
+          },
+          {
+            "name": "WODKA MELON",
+            "description": "",
+            "variants": [{ "label": "2cl", "price": "3,50€" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/non-alcoholic.webp",
+    "id": 1,
+    "slug": "non-alcoholic",
+    "title": "Non Alcoholic",
+    "sections": [
+      {
+        "title": "Softgetränke",
+        "products": [
+          {
+            "name": "S.PELLEGRINO",
+            "description": "mit Kohlensäure / sparkling",
+            "variants": [
+              { "label": "0,25L", "price": "3,20€" },
+              { "label": "1L", "price": "8,90€" }
+            ]
+          },
+          {
+            "name": "AQUA PANNA",
+            "description": "ohne Kohlensäure / still",
+            "variants": [
+              { "label": "0,25L", "price": "3,20€" },
+              { "label": "1L", "price": "8,90€" }
+            ]
+          },
+          {
+            "name": "SODA",
+            "description": "",
+            "variants": [
+              { "label": "0,2", "price": "3,20€" },
+              { "label": "0,4L", "price": "3,90€" }
+            ]
+          },
+          {
+            "name": "COLA GRAPOS",
+            "description": "",
+            "variants": [
+              { "label": "0,2", "price": "3,20€" },
+              { "label": "0,4L", "price": "3,90€" }
+            ]
+          },
+          {
+            "name": "FANTA",
+            "description": "",
+            "variants": [
+              { "label": "0,2", "price": "3,20€" },
+              { "label": "0,4L", "price": "3,90€" }
+            ]
+          },
+          {
+            "name": "COLA MIX",
+            "description": "",
+            "variants": [
+              { "label": "0,2", "price": "3,20€" },
+              { "label": "0,4L", "price": "3,90€" }
+            ]
+          },
+          {
+            "name": "COLA GRAPOS LIGHT",
+            "description": "",
+            "variants": [
+              { "label": "0,2", "price": "3,20€" },
+              { "label": "0,4L", "price": "3,90€" }
+            ]
+          },
+          {
+            "name": "ZITRONENLIMO",
+            "description": "",
+            "variants": [
+              { "label": "0,2", "price": "3,20€" },
+              { "label": "0,4L", "price": "3,90€" }
+            ]
+          },
+          {
+            "name": "TONIC WATER",
+            "description": "",
+            "variants": [{ "label": "0,2", "price": "3,20€" }]
+          },
+          {
+            "name": "BITTER LEMON",
+            "description": "",
+            "variants": [{ "label": "0,2", "price": "3,20€" }]
+          },
+          {
+            "name": "GINGER ALE",
+            "description": "",
+            "variants": [{ "label": "0,2", "price": "3,20€" }]
+          },
+          {
+            "name": "ICE TEA",
+            "description": "Pfirsich oder Zitrone / peach or lemon",
+            "variants": [
+              { "label": "0,2", "price": "3,20€" },
+              { "label": "0,4L", "price": "3,90€" }
+            ]
+          },
+          {
+            "name": "RED BULL",
+            "description": "Sugar free / Yellow Edition",
+            "price": "4,50€"
+          }
+        ]
+      },
+      {
+        "title": "Saft / Schorle",
+        "products": [
+          {
+            "name": "APFELSAFT",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "3,20€" },
+              { "label": "0,4L", "price": "4,50€" }
+            ]
+          },
+          {
+            "name": "ORANGENSAFT",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "3,20€" },
+              { "label": "0,4L", "price": "4,50€" }
+            ]
+          },
+          {
+            "name": "ANANASSAFT",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "3,20€" },
+              { "label": "0,4L", "price": "4,50€" }
+            ]
+          },
+          {
+            "name": "JOHANNISBEERSAFT",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "3,20€" },
+              { "label": "0,4L", "price": "4,50€" }
+            ]
+          },
+          {
+            "name": "KIRSCHSAFT",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "3,20€" },
+              { "label": "0,4L", "price": "4,50€" }
+            ]
+          },
+          {
+            "name": "BANANENSAFT",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "3,20€" },
+              { "label": "0,4L", "price": "4,50€" }
+            ]
+          },
+          {
+            "name": "MARACUJASAFT NEKTAR",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "3,20€" },
+              { "label": "0,4L", "price": "4,50€" }
+            ]
+          },
+          {
+            "name": "PFIRSICHSAFT",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "3,20€" },
+              { "label": "0,4L", "price": "4,50€" }
+            ]
+          },
+          {
+            "name": "VERSCH. SAFTSCHORLEN",
+            "description": "",
+            "variants": [
+              { "label": "0,2L", "price": "2,90€" },
+              { "label": "0,4L", "price": "3,90€" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/kaffee.webp",
+    "id": 1,
+    "slug": "hot-creamy",
+    "title": "Hot and Creamy",
+    "sections": [
+      {
+        "title": "Hot and Creamy",
+        "products": [
+          {
+            "name": "KAFEE",
+            "description": "",
+            "price": "3,90€"
+          },
+          {
+            "name": "CAPPUCCINO",
+            "description": "",
+            "price": "4,50€"
+          },
+          {
+            "name": "ESPRESSO",
+            "description": "",
+            "price": "3,20€"
+          },
+          {
+            "name": "ESPRESSO GRANDE",
+            "description": "",
+            "price": "3,80€"
+          },
+          {
+            "name": "LATTE MACCHIATO",
+            "description": "",
+            "price": "4,90€"
+          },
+          {
+            "name": "LATTE MACCHIATO",
+            "description": {
+              "de": "Kokos, Vanille, Karamel, Mandel",
+              "en": "coconut, vanilla, caramel, almond"
+            },
+            "price": "5,50€"
+          },
+          {
+            "name": "MILCHKAFFEE",
+            "description": "",
+            "price": "4,50€"
+          },
+          {
+            "name": "HOT CHOCOLATE",
+            "description": "mit Sahne / with whipped cream",
+            "price": "4,50€"
+          },
+          {
+            "name": "TEE",
+            "description": "verschiedene Sorten / various sorts",
+            "price": "3,90€"
+          },
+          {
+            "name": "HEISSE ZITRONE",
+            "description": "",
+            "price": "3,00€"
+          },
+          {
+            "name": "MEXICAN CAFEE",
+            "description": {
+              "de": "Tequila, Kahlua, Espresso, Sahne",
+              "en": "Tequila, Kahlua, espresso, whipped cream"
+            },
+            "price": "10,90€"
           }
         ]
       }

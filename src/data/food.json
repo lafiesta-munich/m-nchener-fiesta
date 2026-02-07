@@ -1,64 +1,471 @@
 [
   {
-    "image": "food.jpg",
+    "image": "/images/starters.webp",
     "id": 1,
-    "slug": "tacos",
-    "title": "Tacos",
+    "slug": "starters-snacks",
+    "title": "Starters and Snacks",
     "sections": [
       {
-        "title": "Klassische Tacos",
+        "title": "Starters and Snacks",
         "products": [
           {
-            "name": "Taco al Pastor",
-            "description": "Mariniertes Schweinefleisch, Ananas, Koriander, Zwiebeln",
-            "price": "3 Stück 12,90€"
+            "name": "TORTILLA CHIPS",
+            "description": {
+              "de": "mit einem Dip Ihrer Wahl: Salsa, Sour Cream, Guacamole, Honey-Mustard, BBQ",
+              "en": "Served with a dip of your choice: salsa, sour cream, guacamole, honey mustard, BBQ"
+            },
+            "price": "5,50€"
           },
           {
-            "name": "Taco de Carnitas",
-            "description": "Geschmortes Schweinefleisch, Salsa Verde, Zwiebeln",
-            "price": "3 Stück 12,90€"
+            "name": "MIXED DIPS AND CHIPS",
+            "description": {
+              "de": "für 2 Personen mit 3 Dips nach Wahl",
+              "en": "for 2 persons with 3 dips of your choice"
+            },
+            "price": "8,50€"
           },
           {
-            "name": "Taco de Pollo",
-            "description": "Gegrilltes Hähnchen, Guacamole, Pico de Gallo",
-            "price": "3 Stück 11,90€"
-          }
-        ]
-      },
-      {
-        "title": "Premium Tacos",
-        "products": [
-          {
-            "name": "Taco de Carne Asada",
-            "description": "Gegrilltes Rindfleisch, Chimichurri, Zwiebeln",
-            "price": "3 Stück 14,90€"
+            "name": "NACHOS ORGINAL",
+            "description": {
+              "de": "überbacken mit Käse & Jalapenos, dazu Sour Cream & Salsa",
+              "en": "topped with melted cheese and jalapeños, served with sour cream & salsa"
+            },
+            "price": "8,90€"
           },
           {
-            "name": "Taco de Camarones",
-            "description": "Gebratene Garnelen, Chipotle-Mayo, Krautsalat",
-            "price": "3 Stück 15,90€"
+            "name": "NACHOS GONZALES",
+            "description": {
+              "de": "überbacken mit Käse & Jalapeños, dazu Guacamole & Salsa",
+              "en": "topped with melted cheese and jalapeños, served with guacamole & salsa"
+            },
+            "price": "9,90€"
+          },
+          {
+            "name": "NACHOS GRANDE",
+            "description": {
+              "de": "überbacken mit Chili con Carne, Jalapeños & Käse, dazu Salsa & Sour Cream",
+              "en": "topped with chilli con carne, jalapeños & melted cheese, served with salsa & sour"
+            },
+            "price": "10,90€"
+          },
+          {
+            "name": "CHICKEN NACHOS",
+            "description": {
+              "de": "mit gegrillten Hähnchenbruststreifen, überbacken mit Jalapeños & Käse, dazu Sour Cream & Salsa",
+              "en": "with strips of grilled chicken breast topped with melted cheese & jalapeño, served with sour cream & salsa"
+            },
+            "price": "10,90€"
+          },
+          {
+            "name": "FRIED ONION RINGS",
+            "description": {
+              "de": "frittierte Zwiebelringe mit Tortilla Chips & Sour Cream",
+              "en": "Deep-fried onion rings with tortilla chips & sour cream"
+            },
+            "price": "8,90€"
+          },
+          {
+            "name": "CORN ON THE COB COMBO",
+            "description": {
+              "de": "gegrillter Maiskolben serviert mit Knoblauchbrot & Salat",
+              "en": "Grilled corn on the cob, served with garlic bread & salad"
+            },
+            "price": "9,90€"
+          },
+          {
+            "name": "SANCHES & GOMEZ",
+            "description": {
+              "de": "Jalapeño-Pepper-Cheese-Nuggets und panierte Mozzarellasticks mit Salat, dazu Sour Cream & Salsa",
+              "en": "Jalapeño pepper cheese nuggets, breaded mozzarella sticks and salad, served with sour cream & salsa"
+            },
+            "price": "9,90€"
+          },
+          {
+            "name": "TEX - MEX SAMPLER",
+            "description": {
+              "de": "Zwei knusprige Weizen FLAUTAS (Bacon/Chicken), Chicken Sticks, Buffalo Wings, Tortilla Chips, Pepper Poppers, Mozzarella Sticks, dazu Salat & Dips",
+              "en": "Two crispy wheat flautas (bacon/chicken), chicken sticks, buffalo wings, tortilla chips, pepper poppers, mozzarella sticks, served with salad & dips"
+            },
+            "variants": [
+              {
+                "label": "für 1 Person",
+                "price": "13,50€"
+              },
+              {
+                "label": "für 2 Personen",
+                "price": "21,90€"
+              }
+            ]
+          },
+          {
+            "name": "PARTY PLATTE",
+            "description": {
+              "de": "Zwei knusprige Weizen FLAUTAS (Bacon/Chicken), Chips & Dips, Chicken sticks, Buffalo Wings, Vegetable Sticks, Country Potatoes & Onion Rings, Mozzarella Sticks & Pepper Poppers",
+              "en": "Two crispy wheat flautas (bacon/chicken), chips & dips, chicken sticks, buffalo wings, vegetable sticks, country potatoes & onion rings, mozzarella sticks & pepper poppers"
+            },
+            "price": "34,90€"
           }
         ]
       }
     ]
   },
   {
-    "image": "food.jpg",
-    "id": 2,
-    "slug": "burritos",
-    "title": "Burritos",
+    "image": "/images/salat.webp",
+    "id": 1,
+    "slug": "salat",
+    "title": "Salat",
     "sections": [
       {
-        "title": "Klassische Burritos",
+        "title": "Salat",
         "products": [
           {
-            "name": "Burrito Grande",
-            "description": "Wahl aus Fleisch, Reis, Bohnen, Käse, Pico de Gallo, Sauerrahm",
-            "price": "14,90€"
+            "name": "GROßER GEMISCHTER SALAT",
+            "description": {
+              "de": "mit Knoblauchbaguette",
+              "en": "with garlic baguette"
+            },
+            "price": "8,90€"
           },
           {
-            "name": "Burrito Bowl",
-            "description": "Ohne Tortilla, extra Toppings",
+            "name": "CHICKEN SALAD",
+            "description": {
+              "de": "gegrillte Hähnchenbruststreifen auf knackigem Blattsalat, dazu Knoblauchbaguette",
+              "en": "Strips of grilled chicken breast on crisp lettuce, served with garlic baguette"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "TEXAS SALAD",
+            "description": {
+              "de": "gegrillte Steakstreifen auf knackigem Blattsalat, dazu Knoblauchbaguette",
+              "en": "Strips of grilled steak on crisp lettuce, served with garlic baguette"
+            },
+            "price": "12,90€"
+          },
+          {
+            "name": "NACHOS SALAD",
+            "description": {
+              "de": "gemischter Blattsalat, serviert mit Tortillachips & Chili con Carne, mit Käse überbacken, dazu Knoblauchbaguette, Sour Cream",
+              "en": "Mixed leaves with tortilla chips & chilli con carne and topped with melted cheese served with garlic baguette, sour cream"
+            },
+            "price": "12,90€"
+          },
+          {
+            "name": "ENSALADA CON SCAMPI",
+            "description": {
+              "de": "gegrillte Kingprawns (Riesengarnelen) auf knackigem Blattsalat, mit Balsamico-Dressing & Knoblauchbaguette",
+              "en": "Grilled king prawns on crips lettuce with balsamico, dressing and garlic baguette"
+            },
+            "price": "15,90€"
+          },
+          {
+            "name": "CHICKEN CAESAR SALAD",
+            "description": {
+              "de": "gemischter Blattsalat mit Hähnchenbruststreifen, Croutons und Parmesan Dressing, dazu Knoblauchbaguette",
+              "en": "Romano salad with strips of chicken breast, croutons and parmesan dressing served with garlic baguette"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "CAESAR SALAD",
+            "description": {
+              "de": "gemischter Blattsalat, Parmesan Dressing, dazu Knoblauchbaguette",
+              "en": "Mixed leaves, parmesan dressing, served with garlic baguette"
+            },
+            "price": "9,90€"
+          },
+          {
+            "name": "ENSALADA ATÚN",
+            "description": {
+              "de": "gemischter Blattsalat mit Thunfisch, Ei, Zwiebel, Balsamico-Dressing, dazu Knoblauchbaguette",
+              "en": "Mixed leaves with tuna, egg, onion, balsamico dressing, served with garlic baguette"
+            },
+            "price": "12,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/wraps.webp",
+    "id": 1,
+    "slug": "wraps",
+    "title": "Wraps",
+    "sections": [
+      {
+        "title": "Wraps",
+        "products": [
+          {
+            "name": "WRAP VERDURA",
+            "description": {
+              "de": "mit frischem Gemüse, Reis, Salat & Käse",
+              "en": "Fresh vegetables, rice, salad & cheese"
+            },
+            "price": "9,90€"
+          },
+          {
+            "name": "WRAP ATÚN",
+            "description": {
+              "de": "mit Thunfisch, Mais, Reis, Salat & Käse",
+              "en": "Tuna, sweetcorn, rice, salad & cheese"
+            },
+            "price": "10,90€"
+          },
+          {
+            "name": "WRAP CAESAR CHICKEN",
+            "description": {
+              "de": "mit Chicken Nuggets, Reis, Caesar Salat & Käse",
+              "en": "Chicken nuggets, rice, Caesar salad & cheese"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "WRAP TURKEY",
+            "description": {
+              "de": "mit geräucherter Putenbrust, Reis, Salat & Käse",
+              "en": "Smoked turkey breast, rice, salad & cheese"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "WRAP TEXAS",
+            "description": {
+              "de": "mit Steakstreifen, Reis, Salat & Käse",
+              "en": "Strips of steak, rice, salad & cheese"
+            },
+            "price": "12,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/toasts.webp",
+    "id": 1,
+    "slug": "tostadas",
+    "title": "Tostadas",
+    "sections": [
+      {
+        "title": "Tostadas",
+        "products": [
+          {
+            "name": "TOSTADA LAREDO",
+            "description": {
+              "de": "mit Chili con Carne und Guacamole",
+              "en": "Chilli con carne and guacamole"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "TOSTADA POLLO",
+            "description": {
+              "de": "mit Hähnchenbrustfllet und Guacamole",
+              "en": "Chicken breast and guacamole"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "TOSTADA ATÚN",
+            "description": {
+              "de": "mit Thunfisch, Zwiebeln und Guacamole",
+              "en": "Tuna, onion and guacamole"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "TOSTADA TEXAS",
+            "description": {
+              "de": "mit Steakstreifen und Guacamole",
+              "en": "Strips of steak and guacamole"
+            },
+            "price": "11,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/quesadilla.webp",
+    "id": 1,
+    "slug": "quesadillas",
+    "title": "Quesadillas",
+    "sections": [
+      {
+        "title": "Quesadillas",
+        "products": [
+          {
+            "name": "QUESADILLA PYRAMIDOS",
+            "description": {
+              "de": "mit Hähnchenbruststreifen, Gemüse & Käse",
+              "en": "Strips of chicken breast, vegetables & cheese"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "QUESADILLA VULCANO",
+            "description": {
+              "de": "mit Chili con Carne & Käse",
+              "en": "Chilli con carne and cheese"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "QUESADILLA CAMARÓN",
+            "description": {
+              "de": "mit gebratenen Shrimps, Lauchzwiebeln & Käse",
+              "en": "Pan-fried prawns, spring onion & cheese"
+            },
+            "price": "15,90€"
+          },
+          {
+            "name": "QUESADILLA QUEZO",
+            "description": {
+              "de": "mit Käse &. Lauchzwiebeln",
+              "en": "Cheese & spring onion"
+            },
+            "price": "12,90€"
+          },
+          {
+            "name": "QUESADILLA VERDURA",
+            "description": {
+              "de": "mit Gemüse & Käse",
+              "en": "Vegetables & cheese"
+            },
+            "price": "12,90€"
+          },
+          {
+            "name": "QUESADILLA RUCOLA",
+            "description": {
+              "de": "mit Rucola, Tomaten & Käse",
+              "en": "with rocket, tomato & cheese"
+            },
+            "price": "11,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/enchiladas.webp",
+    "id": 1,
+    "slug": "enchiladas",
+    "title": "Enchiladas",
+    "sections": [
+      {
+        "title": "Enchiladas",
+        "products": [
+          {
+            "name": "ENCHILADA CANCÚN",
+            "description": {
+              "de": "mit Gemüse",
+              "en": "Vegetables"
+            },
+            "price": "12,50€"
+          },
+          {
+            "name": "ENCHILADA ATÚN",
+            "description": {
+              "de": "mit Thunfisch & Zwiebel",
+              "en": "Tuna & onion"
+            },
+            "price": "13,50€"
+          },
+          {
+            "name": "ENCHILADA POLLO",
+            "description": {
+              "de": "mit Hähnchenbruststreifen & Gemüse",
+              "en": "Chicken breast strips & vegetables"
+            },
+            "price": "13,50€"
+          },
+          {
+            "name": "ENCHILADA LAREDO",
+            "description": {
+              "de": "mit Chili con Carne",
+              "en": "Chilli con carne"
+            },
+            "price": "14,50€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/dips.webp",
+    "id": 1,
+    "slug": "extra-dips",
+    "title": "Extra Dips",
+    "sections": [
+      {
+        "title": "Extra Dips",
+        "products": [
+          {
+            "name": "Dips",
+            "description": {
+              "de": "Honey-Mustard, BBQ, Sour Cream, Salsa, Guacamole",
+              "en": "Honey-Mustard, BBQ, Sour Cream, Salsa, Guacamole"
+            },
+            "price": "1,00€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/special.webp",
+    "id": 1,
+    "slug": "la-fiesta-special",
+    "title": "La Fiesta Specials",
+    "sections": [
+      {
+        "title": "La Fiesta Specials",
+        "products": [
+          {
+            "name": "GANZ MEXICO",
+            "description": {
+              "de": "Enchilada, Chicken Wings, Chili con Carne, halber Maiskolben, Cheese Pepper-Poppers, Country Potatoes, Reis, Salat, dazu Salsa und Sour Cream",
+              "en": "Enchilada, chicken wings, chilli con carne, half corn on the cob, cheese pepper country Potatoes, rice, salad, salsa & sour cream"
+            },
+            "price": "22,90€"
+          },
+          {
+            "name": "CHILI CON CARNE",
+            "description": {
+              "de": "mit Tortilla Chips, Sour Cream & Baguette",
+              "en": "With tortilla chips, sour cream & baguette"
+            },
+            "price": "12,90€"
+          },
+          {
+            "name": "CHICKEN STICKS CLASSIC",
+            "description": {
+              "de": "mit Country Potatoes und Salat, dazu Honey-Mustard & Sour Cream",
+              "en": "With Country Potatoes and salad, served with honey mustard & sour cream"
+            },
+            "price": "12,90€"
+          },
+          {
+            "name": "TEXAS STEAK",
+            "description": {
+              "de": "250g Lendensteak vom Angusrind mit Kräuterbutter & Salat wahlweise mit Ofenkartoffel, Pommes Frites oder Country Potatoes",
+              "en": "250g Angus sirloin steak with herb butter & salad and a choice of baked potato, French fries or Country Potatoes"
+            },
+            "price": "28,90€"
+          },
+          {
+            "name": "PEPPERSTEAK ESPECIAL",
+            "description": {
+              "de": "250g Lendensteak von Angusrind mit geschrotetem Pfeffer, Kräuterbutter & Salat wahlweise mit Ofenkartoffel, Pommes Frites oder Country Potatoes",
+              "en": "250g Angus sirloin steak with crushed pepper, herb butter & salad and a choice of baked potato, French fries or Country Potatoes"
+            },
+            "price": "29,90€"
+          },
+          {
+            "name": "BEST OF BUFFALO WINGS",
+            "description": {
+              "de": "pikante knusprige Hähnchenflügel und Country Potatoes, dazu BBQ Dip",
+              "en": "Spicy crispy chicken wings and Country Potatoes, served with BBQ dip"
+            },
             "price": "13,90€"
           }
         ]
@@ -66,43 +473,458 @@
     ]
   },
   {
-    "image": "food.jpg",
-    "id": 3,
-    "slug": "antojitos",
-    "title": "Antojitos & Vorspeisen",
+    "image": "/images/tacos.webp",
+    "id": 1,
+    "slug": "tacos",
+    "title": "Tacos",
     "sections": [
       {
-        "title": "Zum Teilen",
+        "title": "Tacos",
+        "description": {
+          "de": "Drei knusprige gefüllte Maistortillas serviert mit Salat, dazu Sour Cream & Salsa Dip",
+          "en": "Three crisp corn tortillas with various fillings, served with salad, sour cream & salsa dip"
+        },
         "products": [
           {
-            "name": "Nachos Supreme",
-            "description": "Tortilla-Chips, Käse, Jalapeños, Guacamole, Sauerrahm, Salsa",
+            "name": "TACOS CON CARNE",
+            "description": {
+              "de": "mit Chili con Carne & Käse überbacken",
+              "en": "Chilli con carne topped with melted cheese"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "TACOS POLLO",
+            "description": {
+              "de": "mit Hähnchenbrustfllet, Gemüse & Käse überbacken",
+              "en": "Chicken breast and vegetables topped with melted cheese"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "TACOS ATÚN",
+            "description": {
+              "de": "mit Thunfisch, Gemüse & Käse überbacken",
+              "en": "Tuna and vegetables topped with melted cheese"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "TACOS VERDURA",
+            "description": {
+              "de": "mit Gemüse & Käse überbacken",
+              "en": "Vegetables topped with melted cheese"
+            },
             "price": "12,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/fajitas.webp",
+    "id": 1,
+    "slug": "fajitas",
+    "title": "Fajitas",
+    "sections": [
+      {
+        "title": "Fajitas",
+        "description": {
+          "de": "Fajitas (sprich = fachita) werden in einer heißen Gusspfanne mit Zwiebeln, Paprika und Zucchini gebraten. Wir servieren sie mit Reis, Guacamole, Salsa, Sour Cream, Käse, Jalapeños und warmen Weizentortillas",
+          "en": "Fajitas are fried in a hot cast iron skillet together with onions, peppers and courgettes. We serve them with rice, guacamole, salsa, sour cream, cheese, jalapeños and warm wheat tortillas"
+        },
+        "products": [
+          {
+            "name": "FAJITAS DE CARNE",
+            "description": {
+              "de": "mit Steakstreifen",
+              "en": "with strips of steak"
+            },
+            "price": "21,90€"
           },
           {
-            "name": "Quesadilla",
-            "description": "Käse-gefüllte Tortilla mit Fleisch nach Wahl",
+            "name": "FAJITAS DE POLLO",
+            "description": {
+              "de": "mit Hähnchenbrustfilet",
+              "en": "with chicken breast"
+            },
+            "price": "18,90€"
+          },
+          {
+            "name": "FAJITAS MIXTOS",
+            "description": {
+              "de": "mit Hähnchenbrustfilet & Steakstreifen",
+              "en": "with chicken breast & strips of steak"
+            },
+            "price": "20,90€"
+          },
+          {
+            "name": "FAJITAS DE VERDURA",
+            "description": {
+              "de": "mit frischem Saisongemüse",
+              "en": "with fresh seasonal vegetables"
+            },
+            "price": "16,90€"
+          },
+          {
+            "name": "FAJITAS CAMARÓN",
+            "description": {
+              "de": "mit Shrimps",
+              "en": "with prawns"
+            },
+            "price": "21,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/burritos.webp",
+    "id": 1,
+    "slug": "burritos",
+    "title": "Burritos",
+    "sections": [
+      {
+        "title": "Burritos",
+        "description": {
+          "de": "Gefüllte gegrillte Weizentortillas serviert mit Country Potatoes & Salat",
+          "en": "Grilled wheat tortillas with various fillings, served with Country Potatoes & salad"
+        },
+        "products": [
+          {
+            "name": "BURRITO LA FIESTA",
+            "description": {
+              "de": "mit Bacon, geräucherte Putenbrust, Käse, Ei & Lauchzwiebeln, dazu Salsa & Sour Cream",
+              "en": "Bacon, smoked turkey breast, cheese, egg & spring onion, served with salsa & sour"
+            },
+            "price": "17,90€"
+          },
+          {
+            "name": "BURRITO POLLO",
+            "description": {
+              "de": "mit Hähnchenbruststreifen, Gemüse und Käse, dazu Salsa & Guacamole",
+              "en": "Strips of chicken breast, vegetables and cheese, served with salsa & guacamole"
+            },
+            "price": "16,90€"
+          },
+          {
+            "name": "BURRITO ATÚN",
+            "description": {
+              "de": "mit Thunfisch, Lauchzwiebeln, Ei, Mais & Käse, dazu Salsa & Sour Cream",
+              "en": "Tuna, spring onion, egg, sweetcorn & cheese, served with salsa & sour cream"
+            },
+            "price": "16,90€"
+          },
+          {
+            "name": "CHIMICHANGA",
+            "description": {
+              "de": "mit Hähnchenbrust & Gemüse, überbacken mit Käse, dazu Salsa & Sour Cream",
+              "en": "Chicken breast & vegetables, topped with melted cheese and served with salsa & sour"
+            },
+            "price": "16,90€"
+          },
+          {
+            "name": "BURRITO VERDURA",
+            "description": {
+              "de": "mit Gemüse und Käse, dazu Salsa & Sour Cream",
+              "en": "Vegetables and cheese, served with salsa & sour cream"
+            },
+            "price": "14,90€"
+          },
+          {
+            "name": "BURRITO CAMARÓN",
+            "description": {
+              "de": "mit Shrimps, Gemüse & Käse, dazu Salsa & Sour Cream",
+              "en": "Prawns, vegetables and cheese, served with salsa & sour cream"
+            },
+            "price": "17,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/flautas.webp",
+    "id": 1,
+    "slug": "country-potatoes",
+    "title": "Country Potatoes & Flautas",
+    "sections": [
+      {
+        "title": "Country Potatoes",
+        "products": [
+          {
+            "name": "CARLITOS",
+            "description": {
+              "de": "mit Salsa & Sour Cream",
+              "en": "Salsa & sour cream"
+            },
+            "price": "7,90€"
+          },
+          {
+            "name": "MACOTA",
+            "description": {
+              "de": "mit Hähnchenbruststreifen, Gemüse & Käse überbacken, dazu Sour Cream",
+              "en": "Strips of chicken breast, vegetables & cheese, served with sour cream"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "ELDORADO",
+            "description": {
+              "de": "mit Chili con Carne und Käse überbacken, dazu Sour Cream",
+              "en": "Chilli con carne topped with melted cheese and served with sour"
+            },
+            "price": "11,90€"
+          },
+          {
+            "name": "VERDURA CASA",
+            "description": {
+              "de": "mit Gemüse und Käse überbacken, dazu Sour Cream",
+              "en": "Vegetables topped with melted cheese and served with sour cream"
+            },
             "price": "10,90€"
-          },
-          {
-            "name": "Guacamole Fresco",
-            "description": "Frisch zubereitete Guacamole mit Tortilla-Chips",
-            "price": "8,90€"
           }
         ]
       },
       {
-        "title": "Suppen & Salate",
+        "title": "Flautas",
+        "description": {
+          "de": "Drei knusprig gebackene, gefüllte Tortilla Rolls, serviert mit Salat, dazu Sour Cream & Honey Mustard",
+          "en": "Three crusty Flauto bread rolls served with salad, sour cream and honey mustard"
+        },
         "products": [
           {
-            "name": "Tortilla Suppe",
-            "description": "Traditionelle mexikanische Suppe mit Hühnchen",
+            "name": "FLAUTAS POLLO",
+            "description": {
+              "de": "mit Hähnchenbrustfilet, Zwiebeln, Jalapeños & Käse",
+              "en": "Chicken breast, onion, jalapeños & cheese"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "FLAUTAS BACON",
+            "description": {
+              "de": "mit Bacon, Zwiebeln, Jalapeños & Käse",
+              "en": "Bacon, onion, jalapeños & cheese"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "FLAUTAS VERDURA",
+            "description": {
+              "de": "mit Zucchini, Paprika, Zwiebeln, Jalapeños & Käse",
+              "en": "Courgette, peppers, onion, jalapeños & cheese"
+            },
+            "price": "12,90€"
+          },
+          {
+            "name": "FLAUTAS MIXTOS",
+            "description": {
+              "de": "mit je zwei Bacon -, Pollo - und Verdura-FLAUTAS",
+              "en": "Two each bacon, pollo and verdura FLAUTAS"
+            },
+            "price": "13,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/burgers.webp",
+    "id": 1,
+    "slug": "giant-burgers",
+    "title": "Giant Burgers",
+    "sections": [
+      {
+        "title": "Giant Burgers",
+        "description": {
+          "de": "Riesiger saftiger Rindfleisch-Burger im Sesam Brot, belegt mit Blattsalat, Tomate & Zwiebeln, wahlweise mit Pommes Frites oder Country Potatoes, dazu Ketchup & Mayonnaise oder Salsa & Sour Cream",
+          "en": "Giant juicy beef burger in a sesame bun with lettuce, tomato & onion, with a side of French fries or Country Potatoes and either ketchup & mayonnaise or salsa & sour cream"
+        },
+        "products": [
+          {
+            "name": "CLASSIC BURGER",
+            "description": "",
+            "price": "13,90€"
+          },
+          {
+            "name": "CHEESE BURGER",
+            "description": "",
+            "price": "14,90€"
+          },
+          {
+            "name": "BACON CHEESE BURGER",
+            "description": "",
+            "price": "15,90€"
+          },
+          {
+            "name": "CHICKEN BURGER",
+            "description": "",
+            "price": "14,90€"
+          },
+          {
+            "name": "CHICKEN CHEESE BURGER",
+            "description": "",
+            "price": "15,90€"
+          },
+          {
+            "name": "TEXAS BURGER",
+            "description": "",
+            "price": "16,90€"
+          },
+          {
+            "name": "VEGGIE BURGER",
+            "description": "",
+            "price": "11,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/baked-potatoes.webp",
+    "id": 1,
+    "slug": "baked-potatoes",
+    "title": "Baked Potatoes",
+    "sections": [
+      {
+        "title": "Baked Potatoes",
+        "description": {
+          "de": "Mit Käse überbackene Ofenkartoffel, dazu Salat & Sour Cream",
+          "en": "Oven-baked potato topped with melted cheese and served with salad & sour cream"
+        },
+        "products": [
+          {
+            "name": "POTATOE POLLO",
+            "description": {
+              "de": "gefüllt mit Hähnchenbruststreifen & Gemüse",
+              "en": "filled with strips of chicken breast & vegetables"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "POTATOE CHILI",
+            "description": {
+              "de": "gefüllt mit Chili con Carne",
+              "en": "filled with chilli con carne"
+            },
+            "price": "13,90€"
+          },
+          {
+            "name": "POTATOE VERDURA",
+            "description": {
+              "de": "gefüllt mit frischem Gemüse",
+              "en": "filled with fresh vegetables"
+            },
+            "price": "10,90€"
+          },
+          {
+            "name": "POTATOE CAMARÓN",
+            "description": {
+              "de": "gefüllt mit gebratenen Shrimps",
+              "en": "filled with pan-fried prawns"
+            },
+            "price": "13,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/small-bites.webp",
+    "id": 1,
+    "slug": "small-bites",
+    "title": "Small Bites",
+    "sections": [
+      {
+        "title": "Small Bites",
+        "products": [
+          {
+            "name": "KLEINER GEMISCHTER SALAT",
+            "description": {
+              "de": "mit Baguette",
+              "en": "served with baguette"
+            },
+            "price": "4,50€"
+          },
+          {
+            "name": "FRENCH FRIES",
+            "description": {
+              "de": "mit Ketchup oder Mayonnaise",
+              "en": "with ketchup or mayonnaise"
+            },
+            "price": "4,90€"
+          },
+          {
+            "name": "GEGRILLTER MAISKOLBEN",
+            "description": {
+              "de": "mit Kräuterbutter",
+              "en": "served with herb butter"
+            },
+            "price": "4,90€"
+          },
+          {
+            "name": "OFENKARTOFFEL",
+            "description": {
+              "de": "mit Sour Cream",
+              "en": "with sour cream"
+            },
+            "price": "4,90€"
+          },
+          {
+            "name": "KNOBLAUCHBAGUETTE",
+            "description": "",
+            "price": "3,90€"
+          },
+          {
+            "name": "MEXIKANISCHER ROTER REIS",
+            "description": "",
+            "price": "4,90€"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/images/desserts.webp",
+    "id": 1,
+    "slug": "desserts",
+    "title": "Desserts",
+    "sections": [
+      {
+        "title": "Desserts",
+        "products": [
+          {
+            "name": "LA FIESTA PLATANOS",
+            "description": {
+              "de": "gebackene Banane im Tortillamantel mit Honey-Crisp-Lasur, in Rum flambiert, dazu Vanilleeis und Sahne",
+              "en": "Bananas baked in a tortilla crust with a crisp honey glaze and flambéed with rum, served with vanilla ice cream and whipped cream"
+            },
             "price": "7,90€"
           },
           {
-            "name": "Ensalada Mexicana",
-            "description": "Gemischter Salat mit Bohnen, Mais, Avocado",
-            "price": "9,90€"
+            "name": "HUANITAS",
+            "description": {
+              "de": "Vanilleeis mit heißen Tequila-Himbeeren",
+              "en": "Vanilla ice cream with hot tequila raspberries"
+            },
+            "price": "5,90€"
+          },
+          {
+            "name": "GEGRILLTER MAISKOLBEN",
+            "description": {
+              "de": "mit Kräuterbutter",
+              "en": "served with herb butter"
+            },
+            "price": "4,90€"
+          },
+          {
+            "name": "BROWNIE",
+            "description": {
+              "de": "serviert mit Vanilleeis und Sahne",
+              "en": "served with vanilla ice cream and whipped cream"
+            },
+            "price": "7,90€"
           }
         ]
       }

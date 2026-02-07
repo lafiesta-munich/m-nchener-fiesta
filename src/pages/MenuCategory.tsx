@@ -6,21 +6,15 @@ import { Button } from "@/components/ui/button";
 import drinksData from "@/data/drinks.json";
 import foodData from "@/data/food.json";
 import { MenuCategory as MenuCategoryType } from "@/types/menu";
-import cocktailsImg from "@/assets/cocktails.jpg";
-import foodImg from "@/assets/food.jpg";
-
-const imageMap: Record<string, string> = {
-  "cocktails.jpg": cocktailsImg,
-  "food.jpg": foodImg,
-};
 
 const MenuCategory = () => {
   const { type, slug } = useParams<{ type: string; slug: string }>();
-  
-  const data = type === "getraenke" 
-    ? (drinksData as MenuCategoryType[])
-    : (foodData as MenuCategoryType[]);
-  
+
+  const data =
+    type === "getraenke"
+      ? (drinksData as MenuCategoryType[])
+      : (foodData as MenuCategoryType[]);
+
   const category = data.find((c) => c.slug === slug);
 
   if (!category) {
@@ -46,18 +40,18 @@ const MenuCategory = () => {
   return (
     <main className="min-h-screen">
       <Navbar />
-      
+
       {/* Hero with Image */}
       <section className="relative pt-24 pb-16">
         <div className="absolute inset-0 h-64">
           <img
-            src={imageMap[category.image] || category.image}
+            src={category.image}
             alt={category.title}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
         </div>
-        
+
         <div className="relative container mx-auto px-4 pt-16">
           <Link
             to="/speisekarte"
@@ -83,21 +77,52 @@ const MenuCategory = () => {
                 </h2>
                 <div className="space-y-6">
                   {section.products.map((product, productIndex) => (
-                    <div
-                      key={productIndex}
-                      className="flex justify-between items-start gap-4 group"
-                    >
-                      <div className="flex-1">
-                        <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
-                          {product.name}
-                        </h3>
-                        <p className="text-muted-foreground text-sm mt-1">
-                          {product.description}
-                        </p>
+                    <div key={productIndex} className="group">
+                      <div className="flex justify-between items-start gap-4">
+                        <div className="flex-1">
+                          <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                            {product.name}
+                          </h3>
+                          {typeof product.description === "string" ? (
+                            <p className="text-muted-foreground text-sm mt-1">
+                              {product.description}
+                            </p>
+                          ) : (
+                            <div className="mt-1 space-y-1">
+                              <p className="text-muted-foreground text-sm">
+                                <span className="font-medium">DE:</span>{" "}
+                                {product.description.de}
+                              </p>
+                              <p className="text-muted-foreground text-sm">
+                                <span className="font-medium">EN:</span>{" "}
+                                {product.description.en}
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                        {product.price && (
+                          <span className="font-semibold text-primary whitespace-nowrap">
+                            {product.price}
+                          </span>
+                        )}
                       </div>
-                      <span className="font-semibold text-primary whitespace-nowrap">
-                        {product.price}
-                      </span>
+                      {product.variants && product.variants.length > 0 && (
+                        <div className="mt-3 flex flex-wrap gap-3">
+                          {product.variants.map((variant, variantIndex) => (
+                            <div
+                              key={variantIndex}
+                              className="flex items-center gap-2 px-3 py-1.5 bg-muted/50 rounded-full text-sm"
+                            >
+                              <span className="text-muted-foreground">
+                                {variant.label}
+                              </span>
+                              <span className="font-semibold text-primary">
+                                {variant.price}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
