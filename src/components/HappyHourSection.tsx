@@ -1,5 +1,5 @@
 import { Clock, Wine } from "lucide-react";
-import cocktailsImg from "@/assets/gallery-5.webp";
+import cocktailsImg from "@/assets/happy-hour.webp";
 
 const HappyHourSection = () => {
   return (
