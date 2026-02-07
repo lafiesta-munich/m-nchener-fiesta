@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import AboutLocationSection from "@/components/AboutLocationSection";
 import HappyHourSection from "@/components/HappyHourSection";
 import MenuSection from "@/components/MenuSection";
 import PrivateEventsSection from "@/components/PrivateEventsSection";
@@ -40,6 +41,7 @@ const Index = () => {
     <main className="min-h-screen">
       <Navbar />
       <HeroSection />
+      <AboutLocationSection />
       <HappyHourSection />
       <MenuSection />
       <PrivateEventsSection />
