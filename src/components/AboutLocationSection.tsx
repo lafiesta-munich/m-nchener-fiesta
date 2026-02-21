@@ -15,7 +15,7 @@ const AboutLocationSection = () => {
               <img
                 src="/images/front.webp"
                 alt="Münchener Fiesta am Stachus"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-auto object-contain"
                 onError={(e) => {
                   e.currentTarget.src =
                     "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&h=600&fit=crop";
