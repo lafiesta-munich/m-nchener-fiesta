@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const useIsMobile = () => {
   const [isMobile, setIsMobile] = useState(
-    window.innerWidth < 1024 // lg breakpoint
+    window.innerWidth < 1024, // lg breakpoint
   );
 
   useEffect(() => {
@@ -71,6 +71,7 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
+    { href: "/", label: "Startseite", isRoute: true },
     { href: "/#happy-hour", label: "Happy Hour" },
     { href: "/speisekarte", label: "Speisekarte", isRoute: true },
     { href: "/#private-events", label: "Private Feiern" },
@@ -138,7 +139,7 @@ const Navbar = () => {
                 >
                   {link.label}
                 </a>
-              )
+              ),
             )}
             <Button
               size="sm"
@@ -196,7 +197,7 @@ const Navbar = () => {
                   >
                     {link.label}
                   </a>
-                )
+                ),
               )}
               <Button size="sm" asChild className="mt-4 rounded-full">
                 <a
