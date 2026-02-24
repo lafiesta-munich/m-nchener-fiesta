@@ -13,12 +13,24 @@ const HappyHourSection = () => {
               alt="Cocktails Happy Hour"
               className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/3]"
             />
-            <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-xl">
+            <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-xl hidden lg:block">
               <Wine className="h-8 w-8 mb-2" />
               <p className="text-sm font-medium uppercase tracking-wide">
                 Alle Cocktails
               </p>
               <p className="text-3xl font-bold">ab 7,80 €</p>
+            </div>
+            {/* Badge below image on mobile */}
+            <div className="lg:hidden mt-4">
+              <div className="bg-primary text-primary-foreground px-6 py-4 rounded-2xl shadow-xl flex items-center justify-center gap-4 w-full">
+                <Wine className="h-8 w-8 shrink-0" />
+                <div>
+                  <p className="text-sm font-medium uppercase tracking-wide">
+                    Alle Cocktails
+                  </p>
+                  <p className="text-3xl font-bold">ab 7,80 €</p>
+                </div>
+              </div>
             </div>
           </div>
 

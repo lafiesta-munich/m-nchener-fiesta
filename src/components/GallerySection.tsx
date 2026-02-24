@@ -11,8 +11,7 @@ const GallerySection = () => {
     { src: gallery1, alt: "Bar Interior", span: "col-span-2" },
     { src: gallery2, alt: "Guacamole", span: "col-span-2" },
     { src: gallery3, alt: "Tequila Bar", span: "col-span-2" },
-    { src: gallery4, alt: "Freunde feiern", span: "" },
-    { src: gallery5, alt: "Burrito Bowl", span: "" },
+    { src: gallery4, alt: "Freunde feiern", span: "col-span-2" },
     { src: gallery6, alt: "Cocktails", span: "col-span-2" },
     { src: gallery7, alt: "Restaurant", span: "col-span-2" },
   ];
