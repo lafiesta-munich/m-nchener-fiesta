@@ -45,7 +45,7 @@ const EventsSection = () => {
             </p>
 
             {/* Event Highlights */}
-            <div className="grid grid-cols-2 gap-4 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {eventHighlights.map(({ icon: Icon, label }) => (
                 <div
                   key={label}

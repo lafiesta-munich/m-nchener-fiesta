@@ -38,13 +38,13 @@ const PrivateEventsSection = () => {
             </p>
 
             {/* Event Types */}
-            <div className="grid grid-cols-2 gap-4 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {eventTypes.map(({ icon: Icon, label }) => (
                 <div
                   key={label}
-                  className="flex items-center gap-3 p-4 bg-background rounded-xl border border-border"
+                  className="flex items-center justify-center gap-3 p-4 bg-background rounded-xl border border-border text-center"
                 >
-                  <Icon className="h-5 w-5 text-primary" />
+                  <Icon className="h-5 w-5 text-primary shrink-0" />
                   <span className="font-medium text-foreground">{label}</span>
                 </div>
               ))}
