@@ -33,8 +33,8 @@ const PrivateEventsSection = () => {
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
               Du planst eine Feier? Wir bieten dir den perfekten Rahmen für dein
-              Event. Von intimen Geburtstagsfeiern bis hin zu großen
-              Firmenfeiern – wir kümmern uns um alles.
+              Event. Von Geburtstagsfeiern bis hin zu großen Firmenfeiern – wir
+              kümmern uns um alles.
             </p>
 
             {/* Event Types */}
@@ -55,7 +55,7 @@ const PrivateEventsSection = () => {
                 Was wir bieten:
               </p>
               <ul className="text-muted-foreground space-y-2">
-                <li>• Raum mieten</li>
+                <li>• Exklusive Nutzung des Restaurants</li>
                 <li>• Dekoration nach Wunsch</li>
               </ul>
             </div>

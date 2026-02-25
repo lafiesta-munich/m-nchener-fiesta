@@ -12,7 +12,6 @@ import SocialCTA from "@/components/SocialCTA";
 import ReservationCTA from "@/components/ReservationCTA";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import SilvesterSection from "@/components/SilvesterSection";
 
 const Index = () => {
   const location = useLocation();

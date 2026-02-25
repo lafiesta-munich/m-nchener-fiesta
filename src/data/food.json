@@ -25,7 +25,7 @@
             "price": "8,50€"
           },
           {
-            "name": "NACHOS ORGINAL",
+            "name": "NACHOS ORIGINAL",
             "description": {
               "de": "überbacken mit Käse & Jalapenos, dazu Sour Cream & Salsa",
               "en": "topped with melted cheese and jalapeños, served with sour cream & salsa"
@@ -154,7 +154,7 @@
             "name": "ENSALADA CON SCAMPI",
             "description": {
               "de": "gegrillte Kingprawns (Riesengarnelen) auf knackigem Blattsalat, mit Balsamico-Dressing & Knoblauchbaguette",
-              "en": "Grilled king prawns on crips lettuce with balsamico, dressing and garlic baguette"
+              "en": "Grilled king prawns on crisp lettuce with balsamico, dressing and garlic baguette"
             },
             "price": "15,90€"
           },
@@ -259,7 +259,7 @@
           {
             "name": "TOSTADA POLLO",
             "description": {
-              "de": "mit Hähnchenbrustfllet und Guacamole",
+              "de": "mit Hähnchenbrustfilet und Guacamole",
               "en": "Chicken breast and guacamole"
             },
             "price": "11,90€"
@@ -318,9 +318,9 @@
             "price": "15,90€"
           },
           {
-            "name": "QUESADILLA QUEZO",
+            "name": "QUESADILLA QUESO",
             "description": {
-              "de": "mit Käse &. Lauchzwiebeln",
+              "de": "mit Käse & Lauchzwiebeln",
               "en": "Cheese & spring onion"
             },
             "price": "12,90€"
@@ -455,7 +455,7 @@
           {
             "name": "PEPPERSTEAK ESPECIAL",
             "description": {
-              "de": "250g Lendensteak von Angusrind mit geschrotetem Pfeffer, Kräuterbutter & Salat wahlweise mit Ofenkartoffel, Pommes Frites oder Country Potatoes",
+              "de": "250g Lendensteak vom Angusrind mit geschrotetem Pfeffer, Kräuterbutter & Salat wahlweise mit Ofenkartoffel, Pommes Frites oder Country Potatoes",
               "en": "250g Angus sirloin steak with crushed pepper, herb butter & salad and a choice of baked potato, French fries or Country Potatoes"
             },
             "price": "29,90€"
@@ -496,7 +496,7 @@
           {
             "name": "TACOS POLLO",
             "description": {
-              "de": "mit Hähnchenbrustfllet, Gemüse & Käse überbacken",
+              "de": "mit Hähnchenbrustfilet, Gemüse & Käse überbacken",
               "en": "Chicken breast and vegetables topped with melted cheese"
             },
             "price": "13,90€"
@@ -795,7 +795,7 @@
         },
         "products": [
           {
-            "name": "POTATOE POLLO",
+            "name": "POTATO POLLO",
             "description": {
               "de": "gefüllt mit Hähnchenbruststreifen & Gemüse",
               "en": "filled with strips of chicken breast & vegetables"
@@ -803,7 +803,7 @@
             "price": "13,90€"
           },
           {
-            "name": "POTATOE CHILI",
+            "name": "POTATO CHILI",
             "description": {
               "de": "gefüllt mit Chili con Carne",
               "en": "filled with chilli con carne"
@@ -811,7 +811,7 @@
             "price": "13,90€"
           },
           {
-            "name": "POTATOE VERDURA",
+            "name": "POTATO VERDURA",
             "description": {
               "de": "gefüllt mit frischem Gemüse",
               "en": "filled with fresh vegetables"
@@ -819,7 +819,7 @@
             "price": "10,90€"
           },
           {
-            "name": "POTATOE CAMARÓN",
+            "name": "POTATO CAMARÓN",
             "description": {
               "de": "gefüllt mit gebratenen Shrimps",
               "en": "filled with pan-fried prawns"

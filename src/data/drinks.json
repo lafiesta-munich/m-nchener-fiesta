@@ -55,7 +55,7 @@
           {
             "name": "SEX ON THE BEACH",
             "description": {
-              "de": "Wodka, Peachtree, Lime Juice, Cranberry Zitronen-, Maracujasaft, Ananssaft",
+              "de": "Wodka, Peachtree, Lime Juice, Cranberry Zitronen-, Maracujasaft, Ananassaft",
               "en": "Vodka, Peachtree liqueur, lime juice, cranberry, lemon, passion fruit & pineapple juice"
             },
             "variants": [
@@ -66,8 +66,8 @@
           {
             "name": "SWIMMING POOL",
             "description": {
-              "de": "Wodka, Rum, Blue Curaçao1, Ananassaft, Sahne, Kokos",
-              "en": "Vodka, rum, Blue Curaçao1, pineapple juice, cream, coconut"
+              "de": "Wodka, Rum, Blue Curaçao, Ananassaft, Sahne, Kokos",
+              "en": "Vodka, rum, Blue Curaçao, pineapple juice, cream, coconut"
             },
             "variants": [
               { "label": "Small", "price": "9,90€" },
@@ -242,7 +242,7 @@
             "name": "MANGO MAI TAI",
             "description": {
               "de": "Jamaica Rum, Apricot Brandy, Lime Juice, Zitrone, Mangosaft, Ananassaft",
-              "en": "Brandy, brauner rum, Mango, orange, lemon juice"
+              "en": "Jamaica rum, apricot brandy, lime juice, lemon, mango & pineapple juice"
             },
             "variants": [
               { "label": "Small", "price": "9,90€" },
@@ -263,7 +263,7 @@
           {
             "name": "CHOCOLATE COLADA",
             "description": {
-              "de": "Schokoladenliqueur, Malibu, Sahne, Ananassaft",
+              "de": "Schokoladenlikör, Malibu, Sahne, Ananassaft",
               "en": "Chocolate liqueur, Malibu, cream, pineapple juice"
             },
             "variants": [
@@ -285,8 +285,8 @@
           {
             "name": "MARC'S TOTEM",
             "description": {
-              "de": "Versch. Rum, Amaretto1, Zitronensaft, Ananassaft, Orangensaft, Grenadine",
-              "en": "Rum, Amaretto1, lemon, pineapple & orange juice, grenadine syrup"
+              "de": "Versch. Rum, Amaretto, Zitronensaft, Ananassaft, Orangensaft, Grenadine",
+              "en": "Rum, Amaretto, lemon, pineapple & orange juice, grenadine syrup"
             },
             "variants": [
               { "label": "Small", "price": "9,90€" },
@@ -316,9 +316,9 @@
             ]
           },
           {
-            "name": "CARIBEAN LOVER",
+            "name": "CARIBBEAN LOVER",
             "description": {
-              "de": "Versch. Rum, Triple Sec, Lime Juice, Zitronensaft. Ananassaft, Maracuja",
+              "de": "Versch. Rum, Triple Sec, Lime Juice, Zitronensaft, Ananassaft, Maracuja",
               "en": "Rum, Triple Sec, lime, lemon & pineapple juice, passion fruit"
             },
             "variants": [
@@ -351,7 +351,7 @@
           {
             "name": "RUM RUNNER",
             "description": {
-              "de": "Rum, Creme de Banane,Grenadine, Lime Juice, Orangensaft",
+              "de": "Rum, Creme de Banane, Grenadine, Lime Juice, Orangensaft",
               "en": "Rum, crème de banane, grenadine syrup, lime & orange juice"
             },
             "variants": [
@@ -688,7 +688,7 @@
           {
             "name": "IPANEMA (Caipirinha Alkoholfrei)",
             "description": {
-              "de": "Ginger Ale, Lime Juice, Zitonensaft, Brauner Zucker, Limetten",
+              "de": "Ginger Ale, Lime Juice, Zitronensaft, Brauner Zucker, Limetten",
               "en": "Ginger Ale, lime & lemon juice, brown sugar, lime"
             },
             "variants": [
@@ -710,7 +710,7 @@
           {
             "name": "STRAWBERRY CAIPINADA",
             "description": {
-              "de": "Erdbeeren, Limitten, Brauner Zucker, Sprite",
+              "de": "Erdbeeren, Limetten, Brauner Zucker, Sprite",
               "en": "Strawberries, lime, brown sugar, Sprite"
             },
             "variants": [
@@ -803,7 +803,7 @@
           {
             "name": "DAIQUIRI CLASSIC",
             "description": {
-              "de": "Weißer Rum, Zitronensaft, Zucke",
+              "de": "Weißer Rum, Zitronensaft, Zucker",
               "en": "White rum, lemon juice, sugar"
             },
             "price": "11,90€"
@@ -894,7 +894,7 @@
           {
             "name": "CAIPIMAICA",
             "description": {
-              "de": "mit braunen Rum",
+              "de": "mit braunem Rum",
               "en": "with brown rum"
             },
             "variants": [
@@ -1109,7 +1109,7 @@
             "variants": [{ "label": "4cl", "price": "8,90€" }]
           },
           {
-            "name": "Maccallan Single Malt",
+            "name": "Macallan Single Malt",
             "description": "",
             "variants": [{ "label": "4cl", "price": "11,90€" }]
           }
@@ -1270,7 +1270,7 @@
             "variants": [{ "label": "4cl", "price": "6,90€" }]
           },
           {
-            "name": "Ramazotti",
+            "name": "Ramazzotti",
             "description": "",
             "variants": [{ "label": "4cl", "price": "6,90€" }]
           },
@@ -1349,7 +1349,7 @@
             ]
           },
           {
-            "name": "GREY GROOS",
+            "name": "GREY GOOSE",
             "description": "",
             "variants": [
               { "label": "0,5L", "price": "135,00€" },
@@ -1406,12 +1406,12 @@
             ]
           },
           {
-            "name": "Johnnie Walker Scotch Red Lable",
+            "name": "Johnnie Walker Scotch Red Label",
             "description": "",
             "variants": [{ "label": "0,7L", "price": "85,00€" }]
           },
           {
-            "name": "Johnnie Walker Scotch Black Lable",
+            "name": "Johnnie Walker Scotch Black Label",
             "description": "",
             "variants": [{ "label": "0,7L", "price": "120,00€" }]
           }
@@ -1491,7 +1491,7 @@
         ]
       },
       {
-        "title": "Cahmpagne",
+        "title": "Champagne",
         "products": [
           {
             "name": "Moët & Chandon",
@@ -1595,7 +1595,7 @@
             "variants": [{ "label": "0,2L", "price": "5,90€" }]
           },
           {
-            "name": "PROSECCOm",
+            "name": "PROSECCO",
             "description": "",
             "variants": [{ "label": "0,75L", "price": "32,90€" }]
           }
@@ -1668,7 +1668,7 @@
             "price": "8,50€"
           },
           {
-            "name": "LIQUEUR 43 (Curenta y tres)",
+            "name": "LIQUEUR 43 (Cuarenta y tres)",
             "description": "",
             "price": "8,50€"
           },
@@ -1721,7 +1721,7 @@
             "variants": [{ "label": "0,33L", "price": "4,90€" }]
           },
           {
-            "name": "HEINIKEN",
+            "name": "HEINEKEN",
             "description": "",
             "variants": [{ "label": "0,33L", "price": "4,90€" }]
           },
@@ -1741,22 +1741,22 @@
             "variants": [{ "label": "0,5", "price": "4,90€" }]
           },
           {
-            "name": "FANZISKANER WEISSBIER HELL VOM FASS",
+            "name": "FRANZISKANER WEISSBIER HELL VOM FASS",
             "description": "",
             "variants": [{ "label": "0,5", "price": "4,90€" }]
           },
           {
-            "name": "FANZISKANER WEISSBIER DUNKEL",
+            "name": "FRANZISKANER WEISSBIER DUNKEL",
             "description": "",
             "variants": [{ "label": "0,5", "price": "4,90€" }]
           },
           {
-            "name": "FANZISKANER WEISSBIER LEICHT",
+            "name": "FRANZISKANER WEISSBIER LEICHT",
             "description": "",
             "variants": [{ "label": "0,5", "price": "4,90€" }]
           },
           {
-            "name": "FANZISKANER WEISSBIER ALKOHOLFREI",
+            "name": "FRANZISKANER WEISSBIER ALKOHOLFREI",
             "description": "",
             "variants": [{ "label": "0,5", "price": "4,90€" }]
           },
@@ -1829,8 +1829,8 @@
           {
             "name": "WODKA SCHNEE",
             "description": {
-              "de": "Wodka mit Blue Curiacao1, Puderzucker, Limette",
-              "en": "Vodka with Blue curiacao1, icing sugar, lime"
+              "de": "Wodka mit Blue Curaçao, Puderzucker, Limette",
+              "en": "Vodka with Blue Curaçao, icing sugar, lime"
             },
             "variants": [{ "label": "2cl", "price": "3,50€" }]
           },
@@ -2035,7 +2035,7 @@
         "title": "Hot and Creamy",
         "products": [
           {
-            "name": "KAFEE",
+            "name": "KAFFEE",
             "description": "",
             "price": "3,90€"
           },
@@ -2062,7 +2062,7 @@
           {
             "name": "LATTE MACCHIATO",
             "description": {
-              "de": "Kokos, Vanille, Karamel, Mandel",
+              "de": "Kokos, Vanille, Karamell, Mandel",
               "en": "coconut, vanilla, caramel, almond"
             },
             "price": "5,50€"
