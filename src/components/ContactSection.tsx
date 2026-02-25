@@ -2,8 +2,14 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import { toast } from "sonner";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  CheckCircle2,
+  AlertCircle,
+} from "lucide-react";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -12,18 +18,66 @@ const ContactSection = () => {
     phone: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [statusMessage, setStatusMessage] = useState<{
+    type: "success" | "error";
+    text: string;
+  } | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Vielen Dank für deine Nachricht! Wir melden uns bald bei dir.");
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    setStatusMessage(null);
+
+    if (!formData.email && !formData.phone) {
+      setStatusMessage({
+        type: "error",
+        text: "Bitte gib entweder eine E-Mail-Adresse oder eine Telefonnummer an.",
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch(
+        "https://n8n.srv1147919.hstgr.cloud/webhook/f2e1c714-3d66-495e-9e2f-33ea233cccb8",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        },
+      );
+
+      if (!response.ok) throw new Error("Fehler beim Senden");
+
+      setStatusMessage({
+        type: "success",
+        text: "Vielen Dank für deine Nachricht! Wir melden uns bald bei dir.",
+      });
+      setFormData({ name: "", email: "", phone: "", message: "" });
+    } catch {
+      setStatusMessage({
+        type: "error",
+        text: "Nachricht konnte nicht gesendet werden. Bitte versuche es später erneut.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
-    { icon: MapPin, label: "Adresse", value: "Schwanthaler Straße 3, 80336 München" },
+    {
+      icon: MapPin,
+      label: "Adresse",
+      value: "Schwanthaler Straße 3, 80336 München",
+    },
     { icon: Phone, label: "Telefon", value: "089 / 726 090 32" },
     { icon: Mail, label: "E-Mail", value: "info@lafiesta-bar.de" },
-    { icon: Clock, label: "Öffnungszeiten", value: "So–Do: 16:00–01:00 | Fr–Sa: 16:00–05:00" },
+    {
+      icon: Clock,
+      label: "Öffnungszeiten",
+      value: "So–Do: 16:00–01:00 | Fr–Sa: 16:00–05:00",
+    },
   ];
 
   return (
@@ -77,7 +131,10 @@ const ContactSection = () => {
             </h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Dein Name
                 </label>
                 <Input
@@ -86,14 +143,19 @@ const ContactSection = () => {
                   placeholder="Max Mustermann"
                   className="rounded-xl"
                   value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  onChange={(e) =>
+                    setFormData({ ...formData, name: e.target.value })
+                  }
                   required
                 />
               </div>
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                    E-Mail
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
+                    E-Mail *
                   </label>
                   <Input
                     id="email"
@@ -101,13 +163,18 @@ const ContactSection = () => {
                     placeholder="max@beispiel.de"
                     className="rounded-xl"
                     value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    required
+                    onChange={(e) =>
+                      setFormData({ ...formData, email: e.target.value })
+                    }
+                    required={!formData.phone}
                   />
                 </div>
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                    Telefon
+                  <label
+                    htmlFor="phone"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
+                    Telefon *
                   </label>
                   <Input
                     id="phone"
@@ -115,12 +182,18 @@ const ContactSection = () => {
                     placeholder="+49 123 456 789"
                     className="rounded-xl"
                     value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, phone: e.target.value })
+                    }
+                    required={!formData.email}
                   />
                 </div>
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Deine Nachricht
                 </label>
                 <Textarea
@@ -129,13 +202,37 @@ const ContactSection = () => {
                   rows={5}
                   className="rounded-xl"
                   value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  onChange={(e) =>
+                    setFormData({ ...formData, message: e.target.value })
+                  }
                   required
                 />
               </div>
-              <Button type="submit" size="lg" className="w-full rounded-full">
-                Nachricht senden
+              <Button
+                type="submit"
+                size="lg"
+                className="w-full rounded-full"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? "Wird gesendet..." : "Nachricht senden"}
               </Button>
+
+              {statusMessage && (
+                <div
+                  className={`flex items-center gap-3 p-4 rounded-xl text-sm ${
+                    statusMessage.type === "success"
+                      ? "bg-green-500/10 text-green-500 border border-green-500/20"
+                      : "bg-destructive/10 text-destructive border border-destructive/20"
+                  }`}
+                >
+                  {statusMessage.type === "success" ? (
+                    <CheckCircle2 className="h-5 w-5 shrink-0" />
+                  ) : (
+                    <AlertCircle className="h-5 w-5 shrink-0" />
+                  )}
+                  <p>{statusMessage.text}</p>
+                </div>
+              )}
             </form>
           </div>
         </div>
