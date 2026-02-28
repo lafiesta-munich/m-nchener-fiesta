@@ -118,6 +118,11 @@ const Navbar = () => {
                 <Link
                   key={link.href}
                   to={link.href}
+                  onClick={() => {
+                    if (link.href === "/" && isHomepage) {
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }
+                  }}
                   className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
                     useHeroStyle
                       ? "text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10"
@@ -184,7 +189,12 @@ const Navbar = () => {
                     key={link.href}
                     to={link.href}
                     className="px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-colors"
-                    onClick={() => setIsOpen(false)}
+                    onClick={() => {
+                      setIsOpen(false);
+                      if (link.href === "/" && isHomepage) {
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                      }
+                    }}
                   >
                     {link.label}
                   </Link>
