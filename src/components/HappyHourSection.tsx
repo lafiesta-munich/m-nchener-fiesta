@@ -66,7 +66,7 @@ const HappyHourSection = () => {
                   Zweite Happy Hour
                 </p>
                 <p className="text-xl font-semibold text-foreground">
-                  23:00 Uhr bis Ende
+                  22:00 Uhr – 05:00 Uhr
                 </p>
               </div>
             </div>
