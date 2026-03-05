@@ -17,7 +17,7 @@ const HeroSection = () => {
           <div className="mb-4 sm:mb-8">
             <div className="inline-flex items-center justify-center">
               <img
-                src={`${import.meta.env.BASE_URL}logo.png`}
+                src={`/logo.png`}
                 alt="Münchener Fiesta Logo"
                 className="w-40 sm:w-52 md:w-60 h-auto object-contain"
               />

@@ -98,13 +98,13 @@ const Navbar = () => {
           >
             {isMobile ? (
               <img
-                src={`${import.meta.env.BASE_URL}logo.png`}
+                src={`/logo.png`}
                 alt="Münchener Fiesta Logo"
                 className={`w-20 h-15 object-contain`}
               />
             ) : (
               <img
-                src={`${import.meta.env.BASE_URL}logo.png`}
+                src={`/logo.png`}
                 alt="Münchener Fiesta Logo"
                 className={`w-40 h-15 object-contain`}
               />

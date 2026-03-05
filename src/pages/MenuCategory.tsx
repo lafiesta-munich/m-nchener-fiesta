@@ -45,7 +45,7 @@ const MenuCategory = () => {
       <section className="relative pt-24 pb-16">
         <div className="absolute inset-0 h-64">
           <img
-            src={`${import.meta.env.BASE_URL}${category.image.replace(/^\//, "")}`}
+            src={`/${category.image.replace(/^\//, "")}`}
             alt={category.title}
             className="w-full h-full object-cover"
           />

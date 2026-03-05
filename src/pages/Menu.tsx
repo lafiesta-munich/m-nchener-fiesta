@@ -87,7 +87,7 @@ const CategoryCard = ({ category, type }: CategoryCardProps) => {
     >
       <div className="aspect-[16/9] overflow-hidden">
         <img
-          src={`${import.meta.env.BASE_URL}${category.image.replace(/^\//, "")}`}
+          src={`/${category.image.replace(/^\//, "")}`}
           alt={category.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
