@@ -13,7 +13,7 @@ const AboutLocationSection = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-orange-400/20 to-orange-600/20 rounded-2xl transform rotate-3"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/front.webp"
+                src={`${import.meta.env.BASE_URL}images/front.webp`}
                 alt="Münchener Fiesta am Stachus"
                 className="w-full h-auto object-contain"
                 onError={(e) => {

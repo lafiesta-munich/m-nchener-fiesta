@@ -75,7 +75,7 @@ interface CategoryCardProps {
 const CategoryCard = ({ category, type }: CategoryCardProps) => {
   const productCount = category.sections.reduce(
     (acc, section) => acc + section.products.length,
-    0
+    0,
   );
 
   console.log(category);
@@ -87,7 +87,7 @@ const CategoryCard = ({ category, type }: CategoryCardProps) => {
     >
       <div className="aspect-[16/9] overflow-hidden">
         <img
-          src={category.image}
+          src={`${import.meta.env.BASE_URL}${category.image.replace(/^\//, "")}`}
           alt={category.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
