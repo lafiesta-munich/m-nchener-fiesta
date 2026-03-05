@@ -104,7 +104,7 @@ const Navbar = () => {
               />
             ) : (
               <img
-                src="/logo.png"
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="Münchener Fiesta Logo"
                 className={`w-40 h-15 object-contain`}
               />
