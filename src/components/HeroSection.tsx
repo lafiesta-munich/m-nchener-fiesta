@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.webp";
 
 const HeroSection = () => {
@@ -57,7 +58,7 @@ const HeroSection = () => {
               size="lg"
               className="rounded-full sm:h-14 sm:px-10 sm:text-lg"
             >
-              <a href="/speisekarte">Speisekarte ansehen</a>
+              <Link to="/speisekarte">Speisekarte ansehen</Link>
             </Button>
           </div>
         </div>

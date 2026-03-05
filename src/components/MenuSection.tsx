@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import menuCardImg from "@/assets/menu-card.jpg";
 
 const MenuSection = () => {
@@ -42,10 +43,10 @@ const MenuSection = () => {
             </div>
 
             <Button asChild size="lg" className="group rounded-full">
-              <a href="/speisekarte" className="flex items-center">
+              <Link to="/speisekarte" className="flex items-center">
                 Zur Speisekarte
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </a>
+              </Link>
             </Button>
           </div>
 
