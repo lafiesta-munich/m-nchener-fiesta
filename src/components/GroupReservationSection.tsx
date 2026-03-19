@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 
 const GroupReservationSection = () => {
   return (
-    <section id="group-reservation" className="section-padding bg-background">
+    <section id="group-reservation" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Video */}
