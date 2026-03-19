@@ -18,7 +18,7 @@ const GallerySection = () => {
   ];
 
   return (
-    <section id="galerie" className="section-padding bg-card">
+    <section id="galerie" className="py-20 bg-card">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <p className="text-secondary font-semibold tracking-widest uppercase mb-4 text-sm">

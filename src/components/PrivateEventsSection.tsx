@@ -11,7 +11,7 @@ const PrivateEventsSection = () => {
   ];
 
   return (
-    <section id="private-events" className="section-padding bg-card">
+    <section id="private-events" className="py-20 bg-card">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}

@@ -11,8 +11,8 @@ const EventsSection = () => {
   ];
 
   return (
-    <section id="events" className="section-padding">
-      <div className="container mx-auto">
+    <section id="events">
+      <div className="py-20 container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="relative">

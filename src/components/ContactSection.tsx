@@ -81,7 +81,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="kontakt" className="section-padding">
+    <section id="kontakt" className="py-20">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <p className="text-secondary font-semibold tracking-widest uppercase mb-4 text-sm">

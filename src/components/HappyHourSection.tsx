@@ -3,7 +3,7 @@ import cocktailsImg from "@/assets/happy-hour.webp";
 
 const HappyHourSection = () => {
   return (
-    <section id="happy-hour" className="section-padding bg-card">
+    <section id="happy-hour" className="py-20 bg-card">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}

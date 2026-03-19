@@ -12,8 +12,8 @@ const MenuSection = () => {
   ];
 
   return (
-    <section id="speisekarte" className="section-padding">
-      <div className="container mx-auto">
+    <section id="speisekarte">
+      <div className="container mx-auto py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="order-2 lg:order-1">
