@@ -38,7 +38,7 @@ const HappyHourSection = () => {
                   Montag – Donnerstag
                 </p>
                 <p className="text-xl font-semibold text-foreground">
-                  16:00 Uhr – 01:00 Uhr
+                  11:30 Uhr – 01:00 Uhr
                 </p>
               </div>
               <div className="p-5 bg-background rounded-xl border border-border">
@@ -46,7 +46,7 @@ const HappyHourSection = () => {
                   Freitag & Samstag
                 </p>
                 <p className="text-xl font-semibold text-foreground">
-                  16:00 – 20:00 Uhr <br /> 22:00 – 05:00 Uhr
+                  11:30 – 05:00 Uhr
                 </p>
               </div>
               <div className="p-5 bg-background rounded-xl border border-border">
